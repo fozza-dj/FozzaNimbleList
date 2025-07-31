@@ -1,0 +1,21 @@
+{
+  "number": 0,
+  "name": "赵云",
+  "possessions": [2, 7],
+  "emblems": [1, 8],
+  "summonSkill": "龙胆枪破：对前方直线敌人造成180%物理伤害，并有30%概率附加震慑效果",
+  "upgradeCondition": {
+    "requiredHeroes": [2],
+    "requiredAttributeDict": {},
+    "requiredEmblemTypeDict": {
+      "1": 3
+    }
+  },
+  "uniqueTactics": "七进七出：自身兵力低于30%时，闪避率提升50%，持续2回合",
+  "activationCondition": {
+    "requiredHeroes": null,
+    "requiredAttributeDict": null,
+    "requiredEmblemTypeDict": null
+  },
+  "playerHeroTrait": ""
+}
