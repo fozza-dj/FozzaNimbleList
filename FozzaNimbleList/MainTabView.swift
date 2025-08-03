@@ -11,10 +11,10 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             // 首页标签
-//            NavigationStack {
-//                HomeView()
-//            }
-            Text("朱/紫")
+            NavigationStack {
+                NimbelListHomeView()
+            }
+//            Text("朱/紫")
             .tabItem {
                 Image(systemName: "book.fill")
                 Text("全国图鉴")
