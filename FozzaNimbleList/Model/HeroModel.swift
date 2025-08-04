@@ -66,7 +66,7 @@ struct PlayerHeroTraits: Codable {
 }
 
 public struct HeroModel: Codable, Identifiable {
-    public var id: UUID = UUID()
+    public var id: UInt { number }
     // 序号
     var number: UInt
     // 名称

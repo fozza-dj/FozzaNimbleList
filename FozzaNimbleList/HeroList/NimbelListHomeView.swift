@@ -21,7 +21,9 @@ struct NimbelListHomeView: View {
             }
         }
         .onAppear {
-            viewModel.fetchHeroList()
+            if viewModel.heroList.isEmpty && !viewModel.isLoading {
+                viewModel.fetchHeroList()
+            }
         }
     }
 }

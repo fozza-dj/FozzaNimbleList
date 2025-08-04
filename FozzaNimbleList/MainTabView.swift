@@ -14,7 +14,6 @@ struct MainTabView: View {
             NavigationStack {
                 NimbelListHomeView()
             }
-//            Text("朱/紫")
             .tabItem {
                 Image(systemName: "book.fill")
                 Text("全国图鉴")

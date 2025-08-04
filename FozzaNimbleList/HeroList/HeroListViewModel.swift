@@ -16,6 +16,7 @@ class HeroListViewModel: ObservableObject {
         isLoading = true
         NimbelListNetworkService.shared.fetchHeroList { result in
             DispatchQueue.main.async { [weak self] in
+                self?.isLoading = false
                 switch result {
                 case .success(let heroList):
                     print("NimbelListNetworkService fetchHeroList数据返回 heros count = \(heroList.count)")
