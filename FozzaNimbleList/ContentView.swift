@@ -10,9 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            if let image = UIImage(named: "Charm") {
+                Image(uiImage: image)
+                    .resizable()
+                    .imageScale(.small)
+                    .foregroundStyle(.tint)
+                    .frame(width: 50, height: 50)
+            } else {
+                Text("图片未找到")
+                    .foregroundColor(.red)
+            }
+            Image("Charm")
             Text("Hello, world!")
         }
         .padding()

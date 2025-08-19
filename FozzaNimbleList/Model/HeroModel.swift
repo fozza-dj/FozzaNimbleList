@@ -7,19 +7,36 @@
 
 import Foundation
 
-enum AttributeType: Int, CaseIterable, Codable {
+enum PossessionsType: Int, CaseIterable, Codable {
+    // 特性
+    case power // 力
+    case wisdom // 智
+    case charm // 魅
+    case speed // 速
+    case skill // 技
+    case shield // 坚
     // 属性
     case fire // 火
     case ice // 冰
     case thunder // 雷
     case wind // 风
     case slash // 斬
-    // 特性
-    case wisdom // 智
-    case charm // 魅
-    case power // 力
-    case speed // 速
-    case skill // 技
+    
+    var name: String {
+        switch self {
+        case .power: return "power"
+        case.wisdom: return "wisdom"
+        case.charm: return "charm"
+        case.speed: return "speed"
+        case.skill: return "skill"
+        case.shield: return "shield"
+        case.fire: return "fire"
+        case.ice: return "ice"
+        case.thunder: return "thunder"
+        case.wind: return "wind"
+        case.slash: return "slash"
+        }
+    }
 }
 
 enum emblemType: Int, CaseIterable, Codable {
@@ -50,7 +67,7 @@ enum emblemType: Int, CaseIterable, Codable {
 
 struct ActivationCondition: Codable {
     var requiredHeroes: [UInt]?
-    var requiredAttributeDict: [AttributeType: UInt]? // 需要对应多少个属性
+    var requiredAttributeDict: [PossessionsType: UInt]? // 需要对应多少个属性
     var requiredEmblemTypeDict: [emblemType: UInt]? // 需要对应多少个特性
 }
 
@@ -72,7 +89,7 @@ public struct HeroModel: Codable, Identifiable {
     // 名称
     var name: String
     // 印
-    var possessions: [AttributeType]
+    var possessions: [PossessionsType]
     // 特殊系
     var emblems: [emblemType]
     // 召唤技
@@ -99,13 +116,13 @@ extension ActivationCondition {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         requiredHeroes = try container.decodeIfPresent([UInt].self, forKey: .requiredHeroes)
 
-        // 解码属性字典（AttributeType）
+        // 解码属性字典（PossessionsType）
         if let attrDict = try container.decodeIfPresent([String: UInt].self, forKey: .requiredAttributeDict) {
             requiredAttributeDict = try attrDict.reduce(into: [:]) { (acc, pair) in
-                guard let key = Int(pair.key), let type = AttributeType(rawValue: key) else {
+                guard let key = Int(pair.key), let type = PossessionsType(rawValue: key) else {
                     throw DecodingError.dataCorruptedError(forKey: .requiredAttributeDict,
                                                           in: container,
-                                                          debugDescription: "无效的AttributeType值: \(pair.key)")
+                                                          debugDescription: "无效的PossessionsType值: \(pair.key)")
                 }
                 acc[type] = pair.value
             }
