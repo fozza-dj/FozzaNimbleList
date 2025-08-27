@@ -11,6 +11,10 @@ struct HeroCell: View {
     let hero: HeroModel
     
     let resourceManager = ImageResouceManager.shared
+    
+    init(hero: HeroModel) {
+        self.hero = hero
+    }
 
     var body: some View {
         // 使用NavigationLink实现点击跳转
@@ -24,7 +28,7 @@ struct HeroCell: View {
                 // 英雄信息
                 VStack(alignment: .leading, spacing: 4) {
                     Text(hero.name)
-                        .font(.headline)
+                        .font(.hero_Font(.H2, weight: .regular))
                     HStack(spacing: 4) {
                         ForEach(hero.possessions, id: \.self) { possession in
                             Image(resourceManager.getPossessionsImageName(possession))
@@ -49,7 +53,7 @@ struct HeroCell_Previews: PreviewProvider {
             number: 1,
             name: "夏侯惇",
             possessions: [.power, .slash],
-            emblems: [.shu, .braveGeneral],
+            emblems: [.wei, .braveGeneral],
             summonSkill: "龙胆亮银枪",
             upgradeCondition: ActivationCondition(),
             uniqueTactics: "七进七出",

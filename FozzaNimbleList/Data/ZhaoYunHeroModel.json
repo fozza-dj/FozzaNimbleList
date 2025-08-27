@@ -1,7 +1,7 @@
 {
-  "number": 0,
-  "name": "赵云",
-  "possessions": [2, 7],
+  "number": 1,
+  "name": "夏侯惇",
+  "possessions": [0, 15],
   "emblems": [1, 8],
   "summonSkill": "龙胆枪破：对前方直线敌人造成180%物理伤害，并有30%概率附加震慑效果",
   "upgradeCondition": {

@@ -1,0 +1,96 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "...loading" : {
+
+    },
+    "EmblemType_Shu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蜀"
+          }
+        }
+      }
+    },
+    "EmblemType_Wei" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wei"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "魏"
+          }
+        }
+      }
+    },
+    "EmblemType_Wu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "吴"
+          }
+        }
+      }
+    },
+    "Hello, world!" : {
+
+    },
+    "エラーが発生しました: %@" : {
+
+    },
+    "专题" : {
+
+    },
+    "全国图鉴" : {
+
+    },
+    "召唤技: %@" : {
+
+    },
+    "固有战法: %@" : {
+
+    },
+    "图片未找到" : {
+
+    },
+    "属性" : {
+
+    },
+    "工具" : {
+
+    },
+    "我的队伍" : {
+
+    },
+    "搜索全国图鉴宝可梦" : {
+
+    },
+    "朱/紫" : {
+
+    }
+  },
+  "version" : "1.0"
+}
