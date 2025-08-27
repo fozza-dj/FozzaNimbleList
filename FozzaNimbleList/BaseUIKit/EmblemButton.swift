@@ -55,7 +55,6 @@ struct CapsuleWithCutEnds: Shape {
         let w = rect.width
         // 切角宽度（左右平行于高度的比例）
         let cut = min(h * 0.9, w * 0.12) // 调整两端切角宽度
-        let r = h / 2.0
         var p = Path()
         // 从左中上开始顺时针绘制类似 capsule with angled ends
         p.move(to: CGPoint(x: cut, y: 0))
