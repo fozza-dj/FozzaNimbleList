@@ -22,6 +22,8 @@ struct ContentView: View {
             }
             Image("Charm")
             Text("Hello, world!")
+            Text(EmblemType.shu.text())
+            Text(EmblemType.wu.text())
         }
         .padding()
     }

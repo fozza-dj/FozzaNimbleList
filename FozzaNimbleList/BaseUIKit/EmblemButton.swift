@@ -10,10 +10,11 @@ struct EmblemButton: View {
     var title: String
     var body: some View {
         Text(title)
-            .font(.system(size: 20, weight: .regular, design: .serif)) // 可换字体
+            .font(.hero_Font(.smallText1))
             .foregroundColor(.white)
-            .padding(.horizontal, 36)
-            .padding(.vertical, 8)
+            .padding(.vertical, 1)
+            .lineLimit(1)
+            .frame(width: 100, height: 12)
             .background(
                 CapsuleWithCutEnds()
                     .fill(LinearGradient(
@@ -44,19 +45,14 @@ struct EmblemButton: View {
                             .opacity(0.6)
                     )
             )
-            .fixedSize() // 防止被父布局无限拉伸
     }
 }
-// 自定义 Shape：长条中间为矩形，两端为对称菱形切角
 struct CapsuleWithCutEnds: Shape {
     func path(in rect: CGRect) -> Path {
-        // 通过计算在长条左右各取一个等边菱形（或三角）宽度
         let h = rect.height
         let w = rect.width
-        // 切角宽度（左右平行于高度的比例）
-        let cut = min(h * 0.9, w * 0.12) // 调整两端切角宽度
+        let cut = min(h * 0.9, w * 0.12)
         var p = Path()
-        // 从左中上开始顺时针绘制类似 capsule with angled ends
         p.move(to: CGPoint(x: cut, y: 0))
         p.addLine(to: CGPoint(x: w - cut, y: 0))
         p.addLine(to: CGPoint(x: w, y: h / 2))
@@ -64,7 +60,6 @@ struct CapsuleWithCutEnds: Shape {
         p.addLine(to: CGPoint(x: cut, y: h))
         p.addLine(to: CGPoint(x: 0, y: h / 2))
         p.closeSubpath()
-        // 平滑角（可选）：对 path 做 cornerRadius 风格处理 - 这里用内切圆弧近似
         return p
     }
 }
@@ -72,7 +67,7 @@ struct EmblemButton_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
-            EmblemButton(title: "北条")
+            EmblemButton(title: "蜀之五虎上将")
         }
         .previewLayout(.sizeThatFits)
         .padding()

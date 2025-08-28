@@ -16,3 +16,29 @@ struct HeroList: View {
         }
     }
 }
+
+#Preview {
+    let xiahouDun = HeroModel(
+        number: 1,
+        name: "夏侯惇",
+        possessions: [.power, .slash],
+        emblems: [.wei, .braveGeneral],
+        summonSkill: "龙胆亮银枪",
+        upgradeCondition: ActivationCondition(),
+        uniqueTactics: "七进七出",
+        activationCondition: ActivationCondition(),
+        playerHeroTrait: "忠义"
+    )
+    let zhaoYun = HeroModel(
+        number: 2,
+        name: "赵云",
+        possessions: [.power, .thunder, .skill],
+        emblems: [.shu, .braveGeneral],
+        summonSkill: "龙胆亮银枪",
+        upgradeCondition: ActivationCondition(),
+        uniqueTactics: "七进七出",
+        activationCondition: ActivationCondition(),
+        playerHeroTrait: "忠义"
+    )
+    return HeroList(heroList: [xiahouDun,zhaoYun])
+}

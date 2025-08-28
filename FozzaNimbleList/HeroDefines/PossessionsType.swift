@@ -5,6 +5,8 @@
 //  Created by ByteDance on 8/26/25.
 //
 
+import Foundation
+
 enum PossessionsType: Int, CaseIterable, Codable {
     // 特性
     case power = 0 // 力
@@ -33,6 +35,25 @@ enum PossessionsType: Int, CaseIterable, Codable {
         case.thunder: return "thunder"
         case.wind: return "wind"
         case.slash: return "slash"
+        }
+    }
+    
+    private var key: String {
+        let raw = String(describing: self)
+        let capitalized = raw.prefix(1).uppercased() + raw.dropFirst()
+        return "EmblemType_\(capitalized)"
+    }
+    
+    func text(_ language: SupportedLanguage = .system) -> String {
+        switch language {
+        case .system:
+            return NSLocalizedString(key, comment: "")
+        case .ch:
+            return localizedString(forKey: key, language: "zh-Hans") ?? ""
+        case .en:
+            return localizedString(forKey: key, language: "en") ?? ""
+        case .ja:
+            return localizedString(forKey: key, language: "ja") ?? ""
         }
     }
 }

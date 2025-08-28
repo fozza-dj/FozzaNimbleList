@@ -19,7 +19,7 @@ struct HeroCell: View {
     var body: some View {
         // 使用NavigationLink实现点击跳转
         NavigationLink(destination: HeroDetailView(hero: hero)) {
-            HStack(alignment: .center, spacing: 16) {
+            HStack(alignment: .center, spacing: 4) {
                 Image(resourceManager.getAvatarImageName(hero.number))
                     .resizable()
                     .frame(width: 60, height: 60)
@@ -34,12 +34,12 @@ struct HeroCell: View {
                             Image(resourceManager.getPossessionsImageName(possession))
                                 .resizable()
                                 .frame(width: 20, height: 20)
+                                .shadow(radius: 3)
                         }
                     }
                 }
                 
-                Spacer()
-
+                EmblemsStack(emblems: hero.emblems)
             }
             .padding(12)
         }
@@ -52,8 +52,8 @@ struct HeroCell_Previews: PreviewProvider {
         let sampleHero = HeroModel(
             number: 1,
             name: "夏侯惇",
-            possessions: [.power, .slash],
-            emblems: [.wei, .braveGeneral],
+            possessions: [.power, .charm, .slash, .ice],
+            emblems: [.wei, .braveGeneral, .monarch, .fiveShuTigers, .talent],
             summonSkill: "龙胆亮银枪",
             upgradeCondition: ActivationCondition(),
             uniqueTactics: "七进七出",
