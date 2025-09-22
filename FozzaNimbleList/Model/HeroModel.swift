@@ -28,6 +28,8 @@ public struct HeroModel: Codable, Identifiable {
     var possessions: [PossessionsType]
     // 特殊系
     var emblems: [EmblemType]
+    // 主要势力
+    var mainEmblem: EmblemType
     // 召唤技
 //    var summonSkill: PlayerHeroTraits
     var summonSkill: String

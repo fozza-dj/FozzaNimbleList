@@ -54,6 +54,7 @@ struct HeroCell_Previews: PreviewProvider {
             name: "夏侯惇",
             possessions: [.power, .charm, .slash, .ice],
             emblems: [.wei, .braveGeneral, .monarch, .fiveShuTigers, .talent],
+            mainEmblem: .wei,
             summonSkill: "龙胆亮银枪",
             upgradeCondition: ActivationCondition(),
             uniqueTactics: "七进七出",

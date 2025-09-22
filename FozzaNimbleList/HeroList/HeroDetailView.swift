@@ -62,6 +62,7 @@ struct HeroDetailView_Previews: PreviewProvider {
             name: "赵云",
             possessions: [.fire, .thunder],
             emblems: [.shu, .braveGeneral],
+            mainEmblem: .shu,
             summonSkill: "龙胆亮银枪",
             upgradeCondition: ActivationCondition(),
             uniqueTactics: "七进七出",

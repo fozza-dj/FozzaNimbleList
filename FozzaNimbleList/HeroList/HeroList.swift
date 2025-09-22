@@ -22,7 +22,7 @@ struct HeroList: View {
         number: 1,
         name: "夏侯惇",
         possessions: [.power, .slash],
-        emblems: [.wei, .braveGeneral],
+        emblems: [.wei, .braveGeneral], mainEmblem: .wei,
         summonSkill: "龙胆亮银枪",
         upgradeCondition: ActivationCondition(),
         uniqueTactics: "七进七出",
@@ -33,12 +33,12 @@ struct HeroList: View {
         number: 2,
         name: "赵云",
         possessions: [.power, .thunder, .skill],
-        emblems: [.shu, .braveGeneral],
+        emblems: [.shu, .braveGeneral], mainEmblem: .shu,
         summonSkill: "龙胆亮银枪",
         upgradeCondition: ActivationCondition(),
         uniqueTactics: "七进七出",
         activationCondition: ActivationCondition(),
         playerHeroTrait: "忠义"
     )
-    return HeroList(heroList: [xiahouDun,zhaoYun])
+     HeroList(heroList: [xiahouDun,zhaoYun])
 }
