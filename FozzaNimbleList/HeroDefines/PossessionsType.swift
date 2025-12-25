@@ -16,7 +16,7 @@ enum PossessionsType: Int, CaseIterable, Codable {
     case skill = 4 // 技
     case shield = 5 // 坚
     // 属性
-    case fire = 11 // 火
+    case fire = 11 // 炎
     case ice = 12 // 冰
     case thunder = 13 // 雷
     case wind = 14 // 风

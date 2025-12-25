@@ -34,7 +34,7 @@ public struct HeroModel: Codable, Identifiable {
 //    var summonSkill: PlayerHeroTraits
     var summonSkill: String
     // 强化条件
-    var upgradeCondition: ActivationCondition
+    var upgradeCondition: ActivationCondition?
     // 固有战法[唯一性战法，先用文本记述]
     var uniqueTactics: String
     // 发动条件 这里有点问题，发送条件通常是印记*n 或者要求特定英杰，不能直接用字符串

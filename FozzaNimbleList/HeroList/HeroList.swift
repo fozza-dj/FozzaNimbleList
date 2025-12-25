@@ -8,37 +8,23 @@
 import SwiftUI
 
 struct HeroList: View {
-    let heroList: [HeroModel]
+    let sections: [HeroSection]
     
     var body: some View {
-        List(heroList) { hero in
-            HeroCell(hero: hero)
+        List {
+            ForEach(sections) { section in
+                // 使用 section.type 的描述作为 Header
+                Section(header: Text("系别：\(section.type.text())")) {
+                    ForEach(section.heroes) { hero in
+                        HeroCell(hero: hero)
+                    }
+                }
+            }
         }
+        .listStyle(.insetGrouped)
     }
 }
 
-#Preview {
-    let xiahouDun = HeroModel(
-        number: 1,
-        name: "夏侯惇",
-        possessions: [.power, .slash],
-        emblems: [.wei, .braveGeneral], mainEmblem: .wei,
-        summonSkill: "龙胆亮银枪",
-        upgradeCondition: ActivationCondition(),
-        uniqueTactics: "七进七出",
-        activationCondition: ActivationCondition(),
-        playerHeroTrait: "忠义"
-    )
-    let zhaoYun = HeroModel(
-        number: 2,
-        name: "赵云",
-        possessions: [.power, .thunder, .skill],
-        emblems: [.shu, .braveGeneral], mainEmblem: .shu,
-        summonSkill: "龙胆亮银枪",
-        upgradeCondition: ActivationCondition(),
-        uniqueTactics: "七进七出",
-        activationCondition: ActivationCondition(),
-        playerHeroTrait: "忠义"
-    )
-     HeroList(heroList: [xiahouDun,zhaoYun])
-}
+//#Preview {
+//    HeroList(sections: HeroJSONLoader.loadHeroList(fromFile: "MockedHeroList") ?? [])
+//}

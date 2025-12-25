@@ -15,14 +15,24 @@ struct NimbelListHomeView: View {
             if viewModel.isLoading {
                 ProgressView("...loading")
             } else if let error = viewModel.error {
-                Text("エラーが発生しました: \(error.localizedDescription)")
+                VStack {
+                    Text("エラーが発生しました")
+                    Text(error.localizedDescription)
+                        .font(.caption)
+                        .foregroundColor(.red)
+                    Button("再试一次") {
+                        viewModel.fetchHeroListData()
+                    }
+                }
             } else {
-                HeroList(heroList: viewModel.heroList)
+                // ✅ 关键调整：传递 viewModel.sections
+                HeroList(sections: viewModel.sections)
             }
         }
         .onAppear {
-            if viewModel.heroList.isEmpty && !viewModel.isLoading {
-                viewModel.fetchHeroList()
+            // 检查 sections 是否为空
+            if viewModel.sections.isEmpty && !viewModel.isLoading {
+                viewModel.fetchHeroListData()
             }
         }
     }

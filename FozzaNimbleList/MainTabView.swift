@@ -16,20 +16,20 @@ struct MainTabView: View {
             }
             .tabItem {
                 Image(systemName: "book.fill")
-                Text("全国图鉴")
+                Text("英杰列表")
             }
 
             // 其他标签页
-            Text("朱/紫")
+            Text("素材")
                 .tabItem {
                     Image(systemName: "square.grid.2x2.fill")
-                    Text("朱/紫")
+                    Text("素材")
                 }
 
-            Text("我的队伍")
+            Text("阵型")
                 .tabItem {
                     Image(systemName: "person.3.fill")
-                    Text("我的队伍")
+                    Text("阵型")
                 }
 
             Text("专题")

@@ -5,7 +5,7 @@
 //  Created by ByteDance on 8/27/25.
 //
 
-import SwiftUICore
+import SwiftUI
 import UIKit
 
 enum HeroFontFamily: String {

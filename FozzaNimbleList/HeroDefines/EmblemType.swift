@@ -26,24 +26,25 @@ enum affiliation: Int, CaseIterable, Codable {
 }
 
 enum EmblemType: Int, CaseIterable, Codable {
+    // MARK: - 势力
     // 三国势力
-    case wei // 魏
-    case shu // 蜀
-    case wu // 吴
-    case jin // 晋
+    case wei = 0 // 魏
+    case shu = 1 // 蜀
+    case wu = 2// 吴
+    case jin = 3// 晋
     // 黄巾
-    case luBuArmy // 吕布军
-    case dongZhuoArmy // 董卓军
-    case yuanshaoArmy // 袁绍军
+    case luBuArmy = 5// 吕布军
+    case dongZhuoArmy = 6 // 董卓军
+    case yuanshaoArmy = 7 // 袁绍军
     
     // 战国势力
     // 上杉
-    case oda // 织田
-    case sanada // 真田
+    case oda = 9 // 织田
+    case sanada = 10 // 真田
     // 武田
     // 德川
-    case toyotomi // 丰臣
-    case hojo // 北条
+    case toyotomi = 13 // 丰臣
+    case hojo = 14 // 北条
     
     // 浅井
     // 今川
@@ -53,33 +54,33 @@ enum EmblemType: Int, CaseIterable, Codable {
     // 伊达
     
     // 其他势力
-    case independent // 无所属
+    case independent = 30 // 无所属
     
-    // 身份
-    case monarch // 君主
-    case daimyo // 大名
-    case braveGeneral // 猛将
-    case strategist // 军师
-    case shinobi // 忍者
-    case masterGunner // 铁炮名手
-    case masterArcher // 弓箭名手
-    case commandar // 大将军
+    // MARK: - 身份
+    case monarch = 101 // 君主
+    case daimyo = 102 // 大名
+    case braveGeneral = 103 // 猛将
+    case strategist = 104 // 军师
+    case shinobi = 105 // 忍者
+    case masterGunner = 106 // 铁炮名手
+    case masterArcher = 107 // 弓箭名手
+    case commandar = 108 // 大将军
     // 主君之盾
     // 继承人
     
-    // 特性
-    case grace // 优雅
-    case talent // 才贤
-    case might // 蛮力
-    case flowerOfWar // 战场之花
+    // MARK: - 特性
+    case grace = 201 // 优雅
+    case talent = 202 // 才贤
+    case might = 203 // 蛮力
+    case flowerOfWar = 204 // 战场之花
     
-    // 组合
-    case threeHeroes // 三英杰
-    case fiveShuTigers // 五虎上将
-    case fiveWeiElite // 五子良将
+    // MARK: - 组合
+    case threeHeroes = 301 // 三英杰
+    case fiveShuTigers = 302 // 五虎上将
+    case fiveWeiElite = 303 // 五子良将
     // 江东勇将
     
-    // 地区
+    // MARK: - 地区
     // 西凉
     // 西国
     
