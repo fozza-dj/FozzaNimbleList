@@ -556,9 +556,6 @@
         }
       }
     },
-    "Hello, world!" : {
-
-    },
     "PossessionsType_Charm" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -825,9 +822,6 @@
 
     },
     "固有战法: %@" : {
-
-    },
-    "图片未找到" : {
 
     },
     "属性" : {
