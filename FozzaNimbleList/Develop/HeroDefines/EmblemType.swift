@@ -8,21 +8,21 @@
 import Foundation
 
 enum affiliation: Int, CaseIterable, Codable {
-    case favorite
+    case favorite = 0
     // 夏侯惇 曹操
-    case wei
-    case shu
-    case wu
-    case jin
-    case otherDW
-    case oda
-    case toyotomi
-    case tokugawa
-    case hojo
-    case uesugi
-    case takeda
-    case otherSW
-    case guest
+    case wei = 1 // 魏
+    case shu = 2 // 蜀
+    case wu = 3 // 吴
+    case jin = 4 // 晋
+    case otherDW = 5 // 三国群雄
+    case oda = 6 // 织田
+    case toyotomi = 7 // 丰臣
+    case tokugawa = 8// 德川
+    case hojo = 9 // 北条
+    case uesugi = 10 // 上杉
+    case takeda = 11 // 武田
+    case otherSW = 12 // 战国群雄
+    case guest = 13 // 其他
 }
 
 enum EmblemType: Int, CaseIterable, Codable {
@@ -38,11 +38,11 @@ enum EmblemType: Int, CaseIterable, Codable {
     case yuanshaoArmy = 7 // 袁绍军
     
     // 战国势力
-    // 上杉
+    case uesugi = 8 // 上杉
     case oda = 9 // 织田
     case sanada = 10 // 真田
-    // 武田
-    // 德川
+    case takeda = 11 // 武田
+    case tokugawa = 12 // 德川
     case toyotomi = 13 // 丰臣
     case hojo = 14 // 北条
     

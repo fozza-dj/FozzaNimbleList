@@ -11,21 +11,16 @@ struct HeroCell: View {
     let hero: HeroModel
     
     let resourceManager = ImageResouceManager.shared
-    
-    init(hero: HeroModel) {
-        self.hero = hero
-    }
 
     var body: some View {
-        // 使用NavigationLink实现点击跳转
-        NavigationLink(destination: HeroDetailView(hero: hero)) {
+        ZStack(alignment: .leading) {
+            // 1. 你的原生布局（没有任何箭头干扰）
             HStack(alignment: .center, spacing: 4) {
                 Image(resourceManager.getAvatarImageName(hero.number))
                     .resizable()
                     .frame(width: 60, height: 60)
                     .shadow(radius: 5)
 
-                // 英雄信息
                 VStack(alignment: .leading, spacing: 4) {
                     Text(hero.name)
                         .font(.hero_Font(.H2, weight: .regular))
@@ -39,9 +34,16 @@ struct HeroCell: View {
                     }
                 }
                 
+                Spacer() // 将 EmblemsStack 推向右侧
                 EmblemsStack(emblems: hero.emblems)
             }
             .padding(12)
+
+            // 2. 隐藏的跳转逻辑
+            NavigationLink(destination: HeroDetailView(hero: hero)) {
+                EmptyView()
+            }
+            .opacity(0) // 隐藏箭头和背景
         }
     }
 }
@@ -49,23 +51,13 @@ struct HeroCell: View {
 // 预览
 struct HeroCell_Previews: PreviewProvider {
     static var previews: some View {
-        let sampleHero = HeroModel(
-            number: 1,
-            name: "夏侯惇",
-            possessions: [.power, .charm, .slash, .ice],
-            emblems: [.wei, .braveGeneral, .monarch, .fiveShuTigers, .talent],
-            mainEmblem: .wei,
-            summonSkill: "龙胆亮银枪",
-            upgradeCondition: ActivationCondition(),
-            uniqueTactics: "七进七出",
-            activationCondition: ActivationCondition(),
-            playerHeroTrait: "忠义"
-        )
-        HeroCell(hero: sampleHero)
-            .frame(height: 80)
-            .background(Color.white)
-            .cornerRadius(12)
-            .shadow(radius: 2)
-            .padding()
+        if let sampleHero = HeroJSONLoader.loadHeroList(fromFile: "MockedHeroList")?.first {
+            HeroCell(hero: sampleHero)
+                .frame(height: 80)
+                .background(Color.white)
+                .cornerRadius(12)
+                .shadow(radius: 2)
+                .padding()
+        }
     }
 }

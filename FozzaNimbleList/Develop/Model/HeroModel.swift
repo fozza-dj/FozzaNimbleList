@@ -41,4 +41,14 @@ public struct HeroModel: Codable, Identifiable {
     var activationCondition: ActivationCondition
     // 操作时特性 最好是个struct
     var playerHeroTrait: String
+    
+    static let shared = HeroModel(number: 1,
+                                  name: "夏侯惇",
+                                  possessions: [.power, .slash],
+                                  emblems: [.wei, .braveGeneral, .commandar],
+                                  mainEmblem: .wei,
+                                  summonSkill: "刚烈：受到伤害时有概率对敌方造成反击伤害",
+                                  uniqueTactics: "刚烈：受到伤害时有概率对敌方造成反击伤害",
+                                  activationCondition: ActivationCondition(),
+                                  playerHeroTrait: "牛逼")
 }

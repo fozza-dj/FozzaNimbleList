@@ -556,6 +556,9 @@
         }
       }
     },
+    "Key" : {
+      "extractionState" : "manual"
+    },
     "PossessionsType_Charm" : {
       "extractionState" : "manual",
       "localizations" : {
