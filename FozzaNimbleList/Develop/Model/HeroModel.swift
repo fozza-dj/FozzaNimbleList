@@ -19,9 +19,9 @@ struct PlayerHeroTraits: Codable {
 }
 
 public struct HeroModel: Codable, Identifiable {
-    public var id: UInt { number }
+    public var id: Int { number.rawValue }
     // 序号
-    var number: UInt
+    var number: MusouHero
     // 名称
     var name: String
     // 印
@@ -42,7 +42,7 @@ public struct HeroModel: Codable, Identifiable {
     // 操作时特性 最好是个struct
     var playerHeroTrait: String
     
-    static let shared = HeroModel(number: 1,
+    static let shared = HeroModel(number: .xiaHouDun,
                                   name: "夏侯惇",
                                   possessions: [.power, .slash],
                                   emblems: [.wei, .braveGeneral, .commandar],
@@ -51,4 +51,12 @@ public struct HeroModel: Codable, Identifiable {
                                   uniqueTactics: "刚烈：受到伤害时有概率对敌方造成反击伤害",
                                   activationCondition: ActivationCondition(),
                                   playerHeroTrait: "牛逼")
+    
+    var avatarImageName: String {
+        "Avatar_\(number.rawValue)"
+    }
+    
+    var portraitImageName: String {
+        "Portrait_\(number.rawValue)"
+    }
 }

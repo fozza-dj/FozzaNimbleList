@@ -17,7 +17,7 @@ struct HeroDetailView: View {
             
             VStack(alignment: .center, spacing: 20) {
                 // 英雄名称和编号
-                Image(ImageResouceManager.shared.getPortraitImageName(hero.number))
+                Image(hero.portraitImageName)
                     .scaledToFit()
                     .frame(width: 200, height: 400)
                     .shadow(radius: 5)

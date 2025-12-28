@@ -16,7 +16,7 @@ struct HeroCell: View {
         ZStack(alignment: .leading) {
             // 1. 你的原生布局（没有任何箭头干扰）
             HStack(alignment: .center, spacing: 4) {
-                Image(resourceManager.getAvatarImageName(hero.number))
+                Image(hero.avatarImageName)
                     .resizable()
                     .frame(width: 60, height: 60)
                     .shadow(radius: 5)

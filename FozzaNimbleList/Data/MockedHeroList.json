@@ -15,7 +15,7 @@
     "playerHeroTrait": "反伤型肉盾，适合前排抗压"
   },
   {
-    "number": 2,
+    "number": 4,
     "name": "典韦",
     "possessions": [5, 11],
     "emblems": [0, 103, 202, 203],
@@ -30,7 +30,7 @@
     "playerHeroTrait": "反伤型肉盾，适合前排抗压"
   },
   {
-    "number": 11,
+    "number": 201,
     "name": "赵云",
     "possessions": [4, 13],
     "emblems": [1, 103, 302],
