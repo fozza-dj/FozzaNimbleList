@@ -32,10 +32,10 @@ enum EmblemType: Int, CaseIterable, Codable {
     case shu = 1 // 蜀
     case wu = 2// 吴
     case jin = 3// 晋
-    // 黄巾
+    case yellowTurbans = 4 // 黄巾
     case luBuArmy = 5// 吕布军
     case dongZhuoArmy = 6 // 董卓军
-    case yuanshaoArmy = 7 // 袁绍军
+    case yuanShaoArmy = 7 // 袁绍军
     
     // 战国势力
     case uesugi = 8 // 上杉
@@ -46,12 +46,12 @@ enum EmblemType: Int, CaseIterable, Codable {
     case toyotomi = 13 // 丰臣
     case hojo = 14 // 北条
     
-    // 浅井
-    // 今川
-    // 立花
-    // 毛利
-    // 长宗我部
-    // 伊达
+    case azai = 15 // 浅井
+    case imagawa = 16 // 今川
+    case tachibana = 17 // 立花
+    case mori = 18 // 毛利
+    case chosokabe = 19 // 长宗我部
+    case date = 20 // 伊达
     
     // 其他势力
     case independent = 30 // 无所属
@@ -65,8 +65,8 @@ enum EmblemType: Int, CaseIterable, Codable {
     case masterGunner = 106 // 铁炮名手
     case masterArcher = 107 // 弓箭名手
     case commandar = 108 // 大将军
-    // 主君之盾
-    // 继承人
+    case kingsShield = 109 // 主君之盾
+    case torchbearer = 110 // 继承人
     
     // MARK: - 特性
     case grace = 201 // 优雅
@@ -78,11 +78,11 @@ enum EmblemType: Int, CaseIterable, Codable {
     case threeHeroes = 301 // 三英杰
     case fiveShuTigers = 302 // 五虎上将
     case fiveWeiElite = 303 // 五子良将
-    // 江东勇将
+    case jiangDongHero = 304 // 江东勇将
     
     // MARK: - 地区
-    // 西凉
-    // 西国
+    case xiLiang = 401// 西凉
+    case weaternRegion = 402 // 西国
     
     private var key: String {
         let raw = String(describing: self)

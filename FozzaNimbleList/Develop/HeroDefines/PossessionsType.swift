@@ -22,26 +22,10 @@ enum PossessionsType: Int, CaseIterable, Codable {
     case wind = 14 // 风
     case slash = 15 // 斬
     
-    var name: String {
-        switch self {
-        case .power: return "power"
-        case.wisdom: return "wisdom"
-        case.charm: return "charm"
-        case.speed: return "speed"
-        case.skill: return "skill"
-        case.shield: return "shield"
-        case.fire: return "fire"
-        case.ice: return "ice"
-        case.thunder: return "thunder"
-        case.wind: return "wind"
-        case.slash: return "slash"
-        }
-    }
-    
-    private var key: String {
+    var key: String {
         let raw = String(describing: self)
         let capitalized = raw.prefix(1).uppercased() + raw.dropFirst()
-        return "EmblemType_\(capitalized)"
+        return "PossessionsType_\(capitalized)"
     }
     
     func text(_ language: SupportedLanguage = .system) -> String {

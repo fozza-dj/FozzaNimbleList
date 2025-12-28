@@ -4,6 +4,29 @@
     "...loading" : {
 
     },
+    "EmblemType_Azai" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azai"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅井"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅井"
+          }
+        }
+      }
+    },
     "EmblemType_BraveGeneral" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -23,6 +46,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "猛将"
+          }
+        }
+      }
+    },
+    "EmblemType_Chosokabe" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chosokabe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長宗我部"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "长宗我部"
           }
         }
       }
@@ -69,6 +115,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大名"
+          }
+        }
+      }
+    },
+    "EmblemType_Date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "伊達"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "伊达"
           }
         }
       }
@@ -188,6 +257,29 @@
         }
       }
     },
+    "EmblemType_Imagawa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imagawa"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今川"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今川"
+          }
+        }
+      }
+    },
     "EmblemType_Independent" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -207,6 +299,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无所属"
+          }
+        }
+      }
+    },
+    "EmblemType_JiangDongHero" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jiangdong Hero"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "江東の勇将"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "江东勇将"
+          }
+        }
+      }
+    },
+    "EmblemType_KingsShield" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "King’s Shield"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主君の盾"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主君之盾"
           }
         }
       }
@@ -326,6 +464,29 @@
         }
       }
     },
+    "EmblemType_Mori" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mori"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毛利"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毛利"
+          }
+        }
+      }
+    },
     "EmblemType_Oda" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -441,6 +602,29 @@
         }
       }
     },
+    "EmblemType_Tachibana" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tachibana"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立花"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立花"
+          }
+        }
+      }
+    },
     "EmblemType_Talent" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -483,6 +667,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "三英杰"
+          }
+        }
+      }
+    },
+    "EmblemType_Torchbearer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torchbearer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次代の担い手"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继承人"
+          }
+        }
+      }
+    },
+    "EmblemType_WeaternRegion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weatern Region"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "西国"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "西国"
           }
         }
       }
@@ -533,7 +763,53 @@
         }
       }
     },
-    "EmblemType_YuanshaoArmy" : {
+    "EmblemType_XiLiang" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xiliang"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "西涼"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "西凉"
+          }
+        }
+      }
+    },
+    "EmblemType_YellowTurbans" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yellow Turbans"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黄巾党"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黄巾党"
+          }
+        }
+      }
+    },
+    "EmblemType_YuanShaoArmy" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -570,7 +846,7 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "魅"
           }
         },
@@ -825,9 +1101,6 @@
 
     },
     "固有战法: %@" : {
-
-    },
-    "属性" : {
 
     },
     "工具" : {
