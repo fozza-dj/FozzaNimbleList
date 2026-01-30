@@ -18,7 +18,7 @@ struct PlayerHeroTraits: Codable {
     var traitB: HeroTrait
 }
 
-public struct HeroModel: Codable, Identifiable {
+public struct HeroModel: Codable, Identifiable, Sendable {
     public var id: Int { number.rawValue }
     // 序号
     var number: MusouHero

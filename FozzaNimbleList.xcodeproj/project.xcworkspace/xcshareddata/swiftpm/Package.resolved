@@ -1,6 +1,15 @@
 {
-  "originHash" : "7a59664a03af079d4df6e724d5304e873451c23f75065812cffb17b14d429ee9",
+  "originHash" : "e952797175f25f3c55b5518da7cf53f8e09876dc328e1041833879475269be36",
   "pins" : [
+    {
+      "identity" : "lookinserver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QMUI/LookinServer/",
+      "state" : {
+        "revision" : "e553d1b689d147817dc54ad5c28fcff71e860101",
+        "version" : "1.2.8"
+      }
+    },
     {
       "identity" : "sqlcipher",
       "kind" : "remoteSourceControl",

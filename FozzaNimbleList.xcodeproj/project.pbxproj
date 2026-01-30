@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7AC7F82F2C818E00965C9C /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 2B7AC7F72F2C818E00965C9C /* LookinServer */; };
 		2BEC3ACB2E81233700C06B3D /* WCDBSwiftDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2BEC3ACA2E81233700C06B3D /* WCDBSwiftDynamic */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BEC3ACB2E81233700C06B3D /* WCDBSwiftDynamic in Frameworks */,
+				2B7AC7F82F2C818E00965C9C /* LookinServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			name = FozzaNimbleList;
 			packageProductDependencies = (
 				2BEC3ACA2E81233700C06B3D /* WCDBSwiftDynamic */,
+				2B7AC7F72F2C818E00965C9C /* LookinServer */,
 			);
 			productName = FozzaNimbleList;
 			productReference = 2BE1645C2E3228300047BEF8 /* FozzaNimbleList.app */;
@@ -118,6 +121,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2BEC3AC92E81233700C06B3D /* XCRemoteSwiftPackageReference "wcdb" */,
+				2B7AC7F62F2C818E00965C9C /* XCRemoteSwiftPackageReference "LookinServer" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2BE1645D2E3228300047BEF8 /* Products */;
@@ -359,6 +363,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2B7AC7F62F2C818E00965C9C /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
 		2BEC3AC92E81233700C06B3D /* XCRemoteSwiftPackageReference "wcdb" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Tencent/wcdb";
@@ -371,6 +383,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2B7AC7F72F2C818E00965C9C /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B7AC7F62F2C818E00965C9C /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
 		2BEC3ACA2E81233700C06B3D /* WCDBSwiftDynamic */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BEC3AC92E81233700C06B3D /* XCRemoteSwiftPackageReference "wcdb" */;

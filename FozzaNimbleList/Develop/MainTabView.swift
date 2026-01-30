@@ -38,11 +38,19 @@ struct MainTabView: View {
                     Text("专题")
                 }
 
+            #if DEBUG
+            DatabaseDebugView()
+                .tabItem {
+                    Image(systemName: "ladybug.fill")
+                    Text("数据库")
+                }
+            #else
             Text("工具")
                 .tabItem {
                     Image(systemName: "wrench.fill")
                     Text("工具")
                 }
+            #endif
         }
     }
 }

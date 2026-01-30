@@ -48,5 +48,24 @@ extension ActivationCondition {
             }
         }
     }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encodeIfPresent(requiredHeroes, forKey: .requiredHeroes)
+
+        if let requiredAttributeDict {
+            let encoded = requiredAttributeDict.reduce(into: [String: UInt]()) { acc, pair in
+                acc[String(pair.key.rawValue)] = pair.value
+            }
+            try container.encode(encoded, forKey: .requiredAttributeDict)
+        }
+
+        if let requiredEmblemTypeDict {
+            let encoded = requiredEmblemTypeDict.reduce(into: [String: UInt]()) { acc, pair in
+                acc[String(pair.key.rawValue)] = pair.value
+            }
+            try container.encode(encoded, forKey: .requiredEmblemTypeDict)
+        }
+    }
 }
 
