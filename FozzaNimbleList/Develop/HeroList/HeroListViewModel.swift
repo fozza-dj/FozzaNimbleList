@@ -25,7 +25,9 @@ class HeroListViewModel: ObservableObject {
             defer { isLoading = false } // 无论成功失败，结束后都会执行
             
             do {
-                let heroList = try await NimbelListNetworkService.shared.fetchHeroListData()
+                try HeroRepository.shared.setupIfNeeded()
+                _ = try HeroRepository.shared.seedFromMockIfNeeded()
+                let heroList = try HeroRepository.shared.fetchAllHeroes()
                 // 直接赋值，无需担心线程问题和 [weak self]（Task 会自动处理闭包捕获）
                 self.sections = self.groupHeroes(heroList)
             } catch {
