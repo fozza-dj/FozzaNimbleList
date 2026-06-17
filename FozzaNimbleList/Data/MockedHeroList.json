@@ -2,46 +2,4159 @@
   {
     "number": 1,
     "name": "夏侯惇",
-    "possessions": [0, 15],
-    "emblems": [0, 103, 108],
-    "mainEmblem": 1,
-    "summonSkill": "刚烈：受到伤害时有概率对敌方造成反击伤害",
-    "uniqueTactics": "拔矢啖睛：永久提升物理防御力与暴击抵抗",
-    "activationCondition": {
-      "requiredHeroes": [],
+    "possessions": [
+      0,
+      15
+    ],
+    "emblems": [
+      0,
+      103,
+      108
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "裂刃・斬：前方を薙ぎ払う斬属性の斬撃を放つ（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2,
+        3
+      ],
       "requiredAttributeDict": {},
       "requiredEmblemTypeDict": {}
     },
-    "playerHeroTrait": "反伤型肉盾，适合前排抗压"
+    "uniqueTactics": "隻眼豪気：印「魏」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「魏」「大将軍」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 3,
+        "108": 2
+      }
+    },
+    "playerHeroTrait": "魏の宿将：印「魏」1つにつき攻撃力+5% / 敵を裂傷状態にすると、無双ゲージがわずかに溜まる（強化：印「魏」1つにつき攻撃力+8%）\n隻眼凶牙：敵に裂傷を与えると、残り召喚待機時間-1秒 / 敵の攻撃で吹き飛ばされると、20秒間攻撃速度+10%（強化：敵に裂傷を与えると、残り召喚待機時間-2秒 / 敵の攻撃を受けると、20秒間攻撃速度+10%）"
+  },
+  {
+    "number": 2,
+    "name": "曹操",
+    "possessions": [
+      1,
+      2,
+      12
+    ],
+    "emblems": [
+      0,
+      101,
+      202,
+      108
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "吸命の計：状態異常の敵から体力を吸収する（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        11,
+        12
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "魏武の強：印「魏」を持つ英傑の攻撃力+70%（強化：印「魏」を持つ英傑の、攻撃力と防御力+70%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "0": 10
+      }
+    },
+    "playerHeroTrait": "乱世の奸雄：印「魏」1つにつき攻撃力+5% / 印「魏」を持つ英傑が若樹で出現しやすくなる（強化：印「魏」1つにつき攻撃力+7%）\n蒼志の剣：印「魏」1つにつき防御力+5% / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：印「魏」1つにつき防御力+7%）"
+  },
+  {
+    "number": 3,
+    "name": "夏侯渊",
+    "possessions": [
+      4,
+      12
+    ],
+    "emblems": [
+      0,
+      107
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "五月雨撃ち・氷：広範囲に氷属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2,
+        1
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "妙才斉射：氷結状態の敵を攻撃すると、周囲の敵にダメージを与える爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "12": 10
+      },
+      "requiredEmblemTypeDict": {
+        "107": 2
+      }
+    },
+    "playerHeroTrait": "強襲行軍：ノロイバキを1体撃破すると、体力が3%回復（強化：階層の主に対する攻撃力+30%）\n抉地闘弾弓：氷結状態の敵に対する攻撃力+50% / ノロイバキに対する攻撃力+50%（強化：ノロイバキに対する攻撃力+300%）"
   },
   {
     "number": 4,
     "name": "典韦",
-    "possessions": [5, 11],
-    "emblems": [0, 103, 202, 203],
-    "mainEmblem": 1,
-    "summonSkill": "刚烈：受到伤害时有概率对敌方造成反击伤害",
-    "uniqueTactics": "拔矢啖睛：永久提升物理防御力与暴击抵抗",
-    "activationCondition": {
-      "requiredHeroes": [],
+    "possessions": [
+      5,
+      11
+    ],
+    "emblems": [
+      0,
+      103,
+      203,
+      109
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "地裂撃・炎：四方に炎属性の衝撃波を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        1,
+        5
+      ],
       "requiredAttributeDict": {},
       "requiredEmblemTypeDict": {}
     },
-    "playerHeroTrait": "反伤型肉盾，适合前排抗压"
+    "uniqueTactics": "悪来典韋：印「堅」1つにつき攻撃力+3%（強化：印「堅」1つにつき攻撃力+4%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "5": 5
+      },
+      "requiredEmblemTypeDict": {
+        "0": 5
+      }
+    },
+    "playerHeroTrait": "不倒の護り：体力50%以下のとき防御力+200%（強化：体力50%以下のとき防御力+300% / 敵の攻撃を受けると、20秒間攻撃力+70%）\n悪来再来：体力50%以下のとき、攻撃力+100% / 敵の攻撃を受けると、3秒間無敵状態になる"
+  },
+  {
+    "number": 5,
+    "name": "许褚",
+    "possessions": [
+      5,
+      12
+    ],
+    "emblems": [
+      0,
+      103,
+      203,
+      109
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "旋嵐・氷：周囲の敵を打ち上げる氷属性の大竜巻を発生させる（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2,
+        4
+      ],
+      "requiredAttributeDict": {
+        "12": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "虎侯の怪力：召喚技「旋嵐」の攻撃力+100%（強化：召喚技「旋嵐」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {
+        "203": 2
+      }
+    },
+    "playerHeroTrait": "虎候の勇：印「堅」の所持数+50%（強化：印「堅」1つにつき攻撃力+3%）\n巨球神峰砕：印「怪力」1つにつき攻撃力+10% / 5レベルごとに、最大体力+10%(最大100%)（強化：印「怪力」1つにつき攻撃力+15%）"
+  },
+  {
+    "number": 6,
+    "name": "曹仁",
+    "possessions": [
+      5,
+      12
+    ],
+    "emblems": [
+      0,
+      108,
+      109
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "鉄壁：一定時間、周囲に攻撃を1度だけ防ぐ障壁を張る（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        1,
+        3
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "奮力揮刀：敵の障壁を破壊すると、周囲の敵にダメージを与える爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "0": 5,
+        "109": 3
+      }
+    },
+    "playerHeroTrait": "金城湯池：印「魏」1つにつき防御力+5%（強化：印「魏」1つにつき攻撃力と防御力+6% / 敵の攻撃を受けると、20秒間防御力+100%）\n背水防衛壁：印「堅」の所持数+50% / 敵の攻撃を受けると、3秒間無敵状態になる（強化：印「堅」の所持数+70%）"
+  },
+  {
+    "number": 7,
+    "name": "张辽",
+    "possessions": [
+      4,
+      13
+    ],
+    "emblems": [
+      0,
+      5,
+      6,
+      103,
+      303
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "旋嵐・雷：周囲の敵を打ち上げる雷属性の大竜巻を発生させる（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "遼来遼来：印「猛将」を持つ英傑の攻撃力+40%（強化：印「猛将」「雷」を持つ英傑の、攻撃力+70%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "0": 5,
+        "103": 10
+      }
+    },
+    "playerHeroTrait": "比類なき刃：印「猛将」1つにつき攻撃力+5% / 100体撃破ごとに、10秒間攻撃力+50%（強化：印「猛将」1つにつき攻撃力+6% / 100体撃破ごとに、20秒間攻撃力+50%）\n無双鉞：吹き飛ばした敵に、雷属性の追加ダメージが発生 / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：敵の障壁に対するチャージ攻撃の攻撃力+50%）"
+  },
+  {
+    "number": 8,
+    "name": "徐晃",
+    "possessions": [
+      0,
+      15
+    ],
+    "emblems": [
+      0,
+      103,
+      303
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "共振の弾・斬：攻撃すると斬属性の衝撃波が放たれる弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        9
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "長駆直入：敵を裂傷状態にすると、周囲の敵も裂傷状態になる",
+    "activationCondition": {
+      "requiredHeroes": [
+        7
+      ],
+      "requiredAttributeDict": {
+        "15": 6
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "常在戦場：体力80%以上のとき、攻撃力+20%（強化：体力80%以上のとき、攻撃力+50% / 50体撃破ごとに、体力が1%回復）\n重強地断：桃を獲得すると、10秒間攻撃力と防御力+50% / 回避後、10秒間攻撃速度+5%（強化：桃を獲得すると、45秒間攻撃力と防御力+50% / 回避後、10秒間攻撃速度+10%）"
+  },
+  {
+    "number": 9,
+    "name": "张郃",
+    "possessions": [
+      3,
+      12
+    ],
+    "emblems": [
+      0,
+      7,
+      103,
+      303,
+      201
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "無影の一閃・氷：前方に突進し、氷属性の一閃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        403,
+        3
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "華麗なる五将競演：この英傑召喚時に、印「魏の五将軍」を持つ英傑も召喚される（強化：この英傑召喚時に、印「魏の五将軍」「優美」を持つ英傑も召喚される）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "303": 4
+      }
+    },
+    "playerHeroTrait": "絢爛の闘士：印「優美」1つにつき攻撃力+5% / レベルアップ時に体力が20%回復（強化：印「優美」1つにつき攻撃力+9%）\n静月夜爪：連続1000HITごとに、15秒間一斉召喚ゲージ獲得量+50% / 無双乱舞／無双奥義で撃破した敵の経験値+100%（強化：連続1000HITごとに、30秒間一斉召喚ゲージ獲得量+50%）"
+  },
+  {
+    "number": 10,
+    "name": "乐进",
+    "possessions": [
+      4,
+      3
+    ],
+    "emblems": [
+      0,
+      103,
+      303
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "飛剣・氷：前方に氷属性の斬撃を飛ばす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        7
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "縦横無尽：氷属性攻撃の敵障壁への攻撃力+30%（強化：氷属性攻撃の敵障壁への攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 3,
+        "12": 3
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "斬り込み隊長：連続1000HITごとに、15秒間攻撃速度+10%（強化：連続1000HITごとに、30秒間攻撃速度+10% / 各区画の戦闘開始時に、体力が10%回復）\n潜嵐攪陣鉤：印「魏」1つにつき無双ゲージ獲得量+10% / 敵を氷結状態にすると、残り召喚待機時間-1秒（強化：敵を氷結状態にすると、残り召喚待機時間-2秒）"
+  },
+  {
+    "number": 11,
+    "name": "荀彧",
+    "possessions": [
+      1,
+      12
+    ],
+    "emblems": [
+      0,
+      104
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "乱れ光弾・氷：障害物に当たると跳ね返る氷属性の光弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "104": 5
+      }
+    },
+    "uniqueTactics": "王佐の才：印「魏」を持つ英傑の状態異常付与率が100%になる（強化：印「魏」を持つ英傑の状態異常付与率が100%になり、属性攻撃力+20%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 10
+      },
+      "requiredEmblemTypeDict": {
+        "0": 3
+      }
+    },
+    "playerHeroTrait": "慧眼の士：印「魏」1つにつき無双ゲージ獲得量+10%（強化：印「氷」の所持数+50%）\n星宿杭：印「魏」を持つ英傑が若樹で出現しやすくなる / 無双乱舞／無双奥義で撃破した敵の経験値+100%"
+  },
+  {
+    "number": 12,
+    "name": "郭嘉",
+    "possessions": [
+      3,
+      1
+    ],
+    "emblems": [
+      0,
+      104
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "鼓舞の陣・攻：味方の攻撃力を一定時間上げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        11,
+        7
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "兵貴神速：印「魏」を持つ英傑の召喚待機時間-20%（強化：印「魏」を持つ英傑の召喚待機時間-30%、属性攻撃力+30%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "0": 3
+      }
+    },
+    "playerHeroTrait": "享楽の才子：桃を獲得すると、無双ゲージと一斉召喚ゲージが20%溜まる（強化：体力80%以上のとき、すべての英傑の召喚待機時間-20%）\n星遊天鵞：印「魏」1つにつき無双ゲージ獲得量+10% / 印「知」の所持数+50%"
+  },
+  {
+    "number": 13,
+    "name": "贾诩",
+    "possessions": [
+      1,
+      15
+    ],
+    "emblems": [
+      0,
+      6,
+      104,
+      401
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "星落とし・斬：広範囲に斬属性の隕石を複数落とす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "0": 5
+      }
+    },
+    "uniqueTactics": "虚誘掩殺の計：斬属性攻撃による一撃死発生確率2倍",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 5,
+        "15": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "鬼謀の策略家：敵を一撃死させると、10秒間攻撃速度+10%（強化：敵を裂傷状態にすると、無双ゲージがわずかに溜まる）\n神刈：危険地帯が発生しやすくなる / 紅涙の獲得量+50%（強化：印「知」の所持数+50%）"
+  },
+  {
+    "number": 14,
+    "name": "曹丕",
+    "possessions": [
+      4,
+      12
+    ],
+    "emblems": [
+      0,
+      101,
+      110
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "爆裂玉・氷：一定時間後に爆発する氷属性の弾を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2,
+        15
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "怜悧なる号令：氷属性攻撃力+100%（強化：氷属性攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "12": 10
+      },
+      "requiredEmblemTypeDict": {
+        "104": 2
+      }
+    },
+    "playerHeroTrait": "覇道を継ぐ者：印「魏」1つにつき一斉召喚ゲージ獲得量+10%（強化：印「氷」1つにつき攻撃力+5%）\n零霧奏：印「魏」を持つ英傑が若樹で出現しやすくなる / 各区画の戦闘開始時に、紅涙+500（強化：印「氷」の所持数+50%）"
+  },
+  {
+    "number": 15,
+    "name": "甄姬",
+    "possessions": [
+      2,
+      14
+    ],
+    "emblems": [
+      0,
+      7,
+      201
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "爆裂玉・風：一定時間後に爆発する風属性の弾を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        14
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "美玉の楽奏：一斉召喚中、攻撃力+50%（強化：一斉召喚中、攻撃力と防御力+60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 10
+      },
+      "requiredEmblemTypeDict": {
+        "0": 3
+      }
+    },
+    "playerHeroTrait": "麗しの華：印「優美」1つにつき無双ゲージ獲得量+10%（強化：敵を強風状態にすると、無双ゲージがわずかに溜まる）\n汎鳴麗香：印「魅」の所持数+50% / 無双乱舞／無双奥義で撃破した敵の経験値+100%"
+  },
+  {
+    "number": 16,
+    "name": "王异",
+    "possessions": [
+      2,
+      12
+    ],
+    "emblems": [
+      0,
+      204,
+      401
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "炸裂花・氷：当たった敵を引き寄せる氷属性の花火を前方に設置し、3発打ち上げる（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        301
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "204": 3
+      }
+    },
+    "uniqueTactics": "奇計九条：召喚技「炸裂花」の攻撃力+100%（強化：召喚技「炸裂花」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 5
+      },
+      "requiredEmblemTypeDict": {
+        "401": 2
+      }
+    },
+    "playerHeroTrait": "復讐に咲く妖花：敵を氷結状態にすると、一斉召喚ゲージがわずかに溜まる（強化：区画突破ごとに、チャージ攻撃の攻撃力+5%(最大100%)）\n妖惑茨罰刺：氷結状態の敵に対する攻撃力+50% / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 17,
+    "name": "于禁",
+    "possessions": [
+      4,
+      5
+    ],
+    "emblems": [
+      0,
+      103,
+      303
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "破甲の鋭刃・氷：敵の障壁に大きなダメージを与える氷属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        2
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "假節鉞：操作英傑と召喚技の攻撃範囲を広げる",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 6,
+        "12": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "峻厳なる常勝将軍：印「堅」1つにつき、敵障壁への攻撃力+3% / 敵を氷結状態にすると、残り召喚待機時間-1秒（強化：印「堅」1つにつき、敵障壁への攻撃力+5% / 敵を氷結状態にすると、残り召喚待機時間-2秒）\n厳聖処断：操作英傑と召喚技の攻撃範囲を広げる / 印「魏の五将軍」1つにつき攻撃力と防御力+10%（強化：印「魏の五将軍」1つにつき攻撃力と防御力+12%）"
+  },
+  {
+    "number": 101,
+    "name": "周瑜",
+    "possessions": [
+      1,
+      2,
+      11
+    ],
+    "emblems": [
+      2,
+      104,
+      201
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "攻円の計・炎：敵に炎属性ダメージを与える空間を作る（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        103
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "104": 3
+      }
+    },
+    "uniqueTactics": "神火の計：敵を炎上状態にすると、周囲の敵を炎上状態にする爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [
+        111
+      ],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "紅き情熱：印「呉」1つにつき攻撃力+5% / 体力50%以下のとき、通常攻撃に炎属性を付与（強化：印「呉」1つにつき攻撃力+8% / 体力90%以下のとき、通常攻撃に炎属性を付与）\n涼才熱志：敵を炎上状態にすると、無双ゲージがわずかに溜まる / 階層の主に対する攻撃力+30%"
+  },
+  {
+    "number": 102,
+    "name": "孙坚",
+    "possessions": [
+      0,
+      5
+    ],
+    "emblems": [
+      2,
+      103,
+      101,
+      304
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "破甲の鋭刃・炎：敵の障壁に大きなダメージを与える炎属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "101": 5
+      }
+    },
+    "uniqueTactics": "江東の虎：炎上状態の敵を攻撃すると、周囲の敵にダメージを与える爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {
+        "2": 5
+      }
+    },
+    "playerHeroTrait": "炎の勇将：印「呉」1つにつき攻撃力+5% / 炎上状態の敵に対する攻撃力+50%（強化：印「呉」1つにつき攻撃力+8%）\n孫武吼鳴刀：印「呉」1つにつき無双ゲージ獲得量+10% / 敵の攻撃を受けると、一斉召喚ゲージが20%溜まる"
+  },
+  {
+    "number": 103,
+    "name": "孙策",
+    "possessions": [
+      4,
+      13
+    ],
+    "emblems": [
+      2,
+      103,
+      101,
+      304,
+      110
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "地裂撃・雷：四方に雷属性の衝撃波を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        101,
+        106
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "江東の小覇王：印「呉」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「呉」「君主」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 5
+      },
+      "requiredEmblemTypeDict": {
+        "2": 3
+      }
+    },
+    "playerHeroTrait": "紅蓮の鋭気：印「呉」1つにつき攻撃力+5% / 体力50%以下のとき、通常攻撃に雷属性を付与（強化：印「呉」1つにつき攻撃力+9% / 体力90%以下のとき、通常攻撃に雷属性を付与）\n孫武咬砕棍：敵を感電状態にすると、残り召喚待機時間-1秒 / 敵の攻撃を受けずに区画を突破するたびに、攻撃力+3%(最大50%)（強化：敵を感電状態にすると、残り召喚待機時間-2秒 / 敵の攻撃を受けずに区画を突破するたびに、攻撃力+3%(最大100%)）"
+  },
+  {
+    "number": 104,
+    "name": "孙权",
+    "possessions": [
+      2,
+      11
+    ],
+    "emblems": [
+      2,
+      101,
+      110
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "乱れ光弾・炎：障害物に当たると跳ね返る炎属性の光弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        102
+      ],
+      "requiredAttributeDict": {
+        "2": 8
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "孫呉の号令：印「呉」を持つ英傑の攻撃力+40%（強化：印「呉」を持つ英傑の、召喚待機時間-20%、攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "2": 7
+      }
+    },
+    "playerHeroTrait": "雄々しき若虎：印「呉」1つにつき防御力+5%（強化：印「呉」1つにつき攻撃力と防御力+6% / 印「呉」を持つ英傑の召喚待機時間-20%）\n孫武裂地剣：印「呉」を持つ英傑が若樹で出現しやすくなる / 経験値を獲得すると、一斉召喚ゲージがわずかに溜まる"
+  },
+  {
+    "number": 105,
+    "name": "孙尚香",
+    "possessions": [
+      4,
+      14
+    ],
+    "emblems": [
+      2,
+      107,
+      204
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "五月雨撃ち・風：広範囲に風属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "204": 3
+      }
+    },
+    "uniqueTactics": "弓腰姫：強風状態の敵を攻撃すると、紅涙を獲得",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "尚武の風：印「呉」1つにつき一斉召喚ゲージ獲得量+10% / 敵を強風状態にすると、一斉召喚ゲージがわずかに溜まる\n月鵠圏：敵の障壁に対するチャージ攻撃の攻撃力+30% / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：敵の障壁に対するチャージ攻撃の攻撃力+50% / 敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 106,
+    "name": "大乔",
+    "possessions": [
+      2
+    ],
+    "emblems": [
+      2,
+      204,
+      201
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "鼓舞の陣・防：味方の防御力を一定時間上げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        103
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "二喬の大輪：孫策の攻撃力+100%（強化：孫策・小喬の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        107
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "儚くも強き花：印「優美」1つにつき防御力+5% / 弓兵に対する攻撃力+50%（強化：印「優美」1つにつき防御力+7% / 感電状態の敵に対する攻撃力+50%）\n森精双杖：印「呉」1つにつき攻撃力+5% / 敵の矢弾を破壊すると、一斉召喚ゲージが1%溜まる（強化：印「呉」1つにつき攻撃力+7% / 敵の矢弾を破壊すると、一斉召喚ゲージが3%溜まる）"
+  },
+  {
+    "number": 107,
+    "name": "小乔",
+    "possessions": [
+      2
+    ],
+    "emblems": [
+      2,
+      204,
+      201
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "必中の刃・炎：強敵を自動で追尾する炎属性の弾を複数放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        101
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "二喬の小花：周瑜の攻撃力+100%（強化：周瑜・大喬の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        106
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "無垢なる花：印「優美」1つにつき攻撃力+5% / 弓兵に対する攻撃力+50%（強化：印「優美」1つにつき攻撃力+7% / 炎上状態の敵に対する攻撃力+50%）\n天舞鳥麗：印「呉」1つにつき防御力+5% / 敵の矢弾を破壊すると、体力が1%回復（強化：印「呉」1つにつき防御力+7% / 敵の矢弾を破壊すると、体力が3%回復）"
+  },
+  {
+    "number": 108,
+    "name": "鲁肃",
+    "possessions": [
+      5,
+      1
+    ],
+    "emblems": [
+      2,
+      202
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "威圧の陣・攻：敵の攻撃力を下げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        104
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "202": 3
+      }
+    },
+    "uniqueTactics": "天下二分の計：印「知」1つにつき攻撃力+3%（強化：印「知」1つにつき攻撃力+4%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 5
+      },
+      "requiredEmblemTypeDict": {
+        "202": 3
+      }
+    },
+    "playerHeroTrait": "遠謀の戦略家：印「呉」を持つ英傑が若樹で出現しやすくなる（強化：一斉召喚中、攻撃力+50%）\n焦凍耕砕歯：印「呉」1つにつき一斉召喚ゲージ獲得量+10% / 紅涙の獲得量+50%（強化：紅涙の獲得量+100%）"
+  },
+  {
+    "number": 109,
+    "name": "吕蒙",
+    "possessions": [
+      4,
+      15
+    ],
+    "emblems": [
+      2,
+      202
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "剣の舞・斬：前方に、旋回する斬属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        104,
+        110
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "磨かれし軍略：印「呉」を持つ英傑の召喚待機時間-20%（強化：印「呉」を持つ英傑の、召喚待機時間-30%、攻撃力+20%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "2": 3,
+        "202": 5
+      }
+    },
+    "playerHeroTrait": "刮目相待：階層の主に対する攻撃力+30%（強化：5レベルごとに、最大体力+10%(最大100%)）\n討神顎：印「呉」1つにつき一斉召喚ゲージ獲得量+10% / 無双乱舞／無双奥義で撃破した敵の経験値+100%（強化：印「呉」1つにつき一斉召喚ゲージ獲得量+15%）"
+  },
+  {
+    "number": 110,
+    "name": "陆逊",
+    "possessions": [
+      1,
+      11
+    ],
+    "emblems": [
+      2,
+      104,
+      108
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "連射砲・炎：一定時間、炎属性の刃を放つ弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        104
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "108": 2
+      }
+    },
+    "uniqueTactics": "知勇の炎：印「呉」を持つ英傑の状態異常付与率が100%になる（強化：印「呉」「大将軍」を持つ英傑の状態異常付与率が100%になる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {
+        "104": 3
+      }
+    },
+    "playerHeroTrait": "未来を照らす知勇：印「呉」1つにつき防御力+5% / 敵を炎上状態にすると、無双ゲージがわずかに溜まる（強化：印「炎」の所持数+50%）\n飛鷲剣：印「呉」1つにつき無双ゲージ獲得量+10% / 無双乱舞／無双奥義で撃破した敵の経験値+100%（強化：印「呉」1つにつき無双ゲージ獲得量+15%）"
+  },
+  {
+    "number": 111,
+    "name": "黄盖",
+    "possessions": [
+      5,
+      11
+    ],
+    "emblems": [
+      2,
+      203,
+      304
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "共振の弾・炎：攻撃すると炎属性の衝撃波が放たれる弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        102
+      ],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "苦肉の計：召喚技「共振の弾」の状態異常付与率が100%になる（強化：この英傑召喚時に、印「江東の勇将」を持つ英傑も召喚される）",
+    "activationCondition": {
+      "requiredHeroes": [
+        101
+      ],
+      "requiredAttributeDict": {
+        "5": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "呉の宿将：印「呉」1つにつき攻撃力+8%（強化：敵の攻撃を受けると、20秒間防御力+100%）\n冥爪艦：ノロイバキを4体撃破すると、10秒間攻撃を防ぐ障壁を張る / 敵の攻撃を受けると、20秒間攻撃力+50%（強化：敵の攻撃を受けると、20秒間攻撃力+70%）"
+  },
+  {
+    "number": 112,
+    "name": "太史慈",
+    "possessions": [
+      5,
+      14
+    ],
+    "emblems": [
+      2,
+      103,
+      107,
+      304
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "かまいたち・風：周囲の敵を巻き込みながら進む風属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        103
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "信義の双鞭：召喚技「かまいたち」の攻撃力+100%（強化：召喚技「かまいたち」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 5
+      },
+      "requiredEmblemTypeDict": {
+        "2": 3
+      }
+    },
+    "playerHeroTrait": "義理堅き武人：体力50%以下のとき、通常攻撃に風属性を付与（強化：印「猛将」1つにつき攻撃力と防御力+3% / 敵の矢弾を破壊すると、体力が3%回復）\n鳴天地双鞭：印「江東の勇将」1つにつき攻撃力+7% / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：印「江東の勇将」1つにつき攻撃力+18% / 敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 113,
+    "name": "甘宁",
+    "possessions": [
+      3,
+      15
+    ],
+    "emblems": [
+      2,
+      103,
+      304
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "飛剣・斬：前方に斬属性の斬撃を飛ばす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        109
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "鈴甘寧：斬属性攻撃力+100%（強化：斬属性攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "15": 10
+      },
+      "requiredEmblemTypeDict": {
+        "304": 2
+      }
+    },
+    "playerHeroTrait": "磊落の侠：敵に裂傷を与えると、残り召喚待機時間-1秒 / レベルアップ時に、20秒間攻撃力+50%（強化：印「斬」1つにつき攻撃力+3%）\n明星：印「速」1つにつき攻撃力+3% / 敵の矢弾を破壊すると、爆発して周囲の敵にダメージを与える（強化：印「速」1つにつき攻撃力+4% / 印「斬」の所持数+50%）"
+  },
+  {
+    "number": 114,
+    "name": "周泰",
+    "possessions": [
+      4,
+      15
+    ],
+    "emblems": [
+      2,
+      304,
+      109
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "無影の一閃・斬：前方に突進し、斬属性の一閃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        104
+      ],
+      "requiredAttributeDict": {
+        "4": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "鉄壁の刃：印「堅」1つにつき攻撃力+3%（強化：印「堅」1つにつき攻撃力+4%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "2": 5,
+        "109": 3
+      }
+    },
+    "playerHeroTrait": "刹那のごとく：敵を一撃死させると、10秒間攻撃速度+10%（強化：印「斬」の所持数+50%）\n終：連続1000HITごとに、15秒間無双ゲージ獲得量+50% / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：敵の障壁に対するチャージ攻撃の攻撃力+50%）"
+  },
+  {
+    "number": 115,
+    "name": "凌统",
+    "possessions": [
+      3,
+      11
+    ],
+    "emblems": [
+      2,
+      304
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "煙霧の計・炎：周囲の敵を必ず炎上状態にする特殊な霧を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        104
+      ],
+      "requiredAttributeDict": {
+        "3": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "死士奮戦：炎上状態の敵を攻撃すると、無双ゲージがわずかに溜まる（強化：炎上状態の敵を攻撃すると、無双ゲージが少し溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "涼やかなる炎：敵を炎上状態にすると、残り召喚待機時間-1秒（強化：敵を炎上状態にすると、残り召喚待機時間-2秒 / 印「江東の勇将」1つにつき攻撃力+18%）\n渡空気流：業蛍火を獲得すると、5秒間攻撃力と防御力+50% / 素早さの50%を攻撃力に加える（強化：業蛍火を獲得すると、15秒間攻撃力と防御力+50% / 敵を炎上状態にすると、周囲の敵を炎上状態にする爆発が発生）"
+  },
+  {
+    "number": 116,
+    "name": "练师",
+    "possessions": [
+      2,
+      11
+    ],
+    "emblems": [
+      2,
+      204,
+      201,
+      202
+    ],
+    "mainEmblem": 2,
+    "summonSkill": "爆裂玉・炎：一定時間後に爆発する炎属性の弾を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {
+        "204": 3
+      }
+    },
+    "uniqueTactics": "若虎の緋影：印「次代の担い手」「優美」を持つ英傑の、攻撃力+30%（強化：印「次代の担い手」「優美」を持つ英傑の、召喚待機時間-20%、攻撃力+30%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        104
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "110": 5
+      }
+    },
+    "playerHeroTrait": "麗しの守り人：印「呉」1つにつき攻撃力と防御力+3% / 炎上状態の敵を攻撃すると、一斉召喚ゲージが少し溜まる（強化：印「呉」1つにつき攻撃力と防御力+4%）\n丹心旋華：孫権の召喚待機時間-20%、攻撃力+20% / 敵を炎上状態にすると、周囲の敵を炎上状態にする爆発が発生（強化：孫権の召喚待機時間-30%、攻撃力+30%）"
   },
   {
     "number": 201,
     "name": "赵云",
-    "possessions": [4, 13],
-    "emblems": [1, 103, 302],
+    "possessions": [
+      4,
+      13
+    ],
+    "emblems": [
+      1,
+      103,
+      302
+    ],
     "mainEmblem": 1,
-    "summonSkill": "龙胆枪破：对前方直线敌人造成180%物理伤害，并有30%概率附加震慑效果",
-    "uniqueTactics": "七进七出：自身兵力低于30%时，闪避率提升50%，持续2回合",
+    "summonSkill": "飛剣・雷：前方に雷属性の斬撃を飛ばす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202
+      ],
+      "requiredAttributeDict": {
+        "13": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "一心是胆：召喚技「飛剣」の攻撃力+100%（強化：召喚技「飛剣」の攻撃力+120%）",
     "activationCondition": {
-      "requiredHeroes": [5],
+      "requiredHeroes": [
+        205
+      ],
+      "requiredAttributeDict": {
+        "4": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "忠勇兼備：印「蜀」1つにつき攻撃力+5% / 敵を感電状態にすると、残り召喚待機時間-1秒（強化：印「蜀」1つにつき攻撃力+8%）\n光龍神槍：感電状態の敵に対する攻撃力+50% / 連続1000HITごとに、15秒間無双ゲージ獲得量+50%（強化：印「雷」の所持数+50%）"
+  },
+  {
+    "number": 202,
+    "name": "刘备",
+    "possessions": [
+      2,
+      2
+    ],
+    "emblems": [
+      1,
+      101
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "攻円の計・雷：敵に雷属性ダメージを与える空間を作る（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        205
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "1": 5
+      }
+    },
+    "uniqueTactics": "桃園の誓い：劉備・関羽・張飛の攻撃力+100%（強化：劉備・関羽・張飛の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        203,
+        204
+      ],
       "requiredAttributeDict": {},
       "requiredEmblemTypeDict": {}
     },
-    "playerHeroTrait": "高机动输出，切入后排能力强"
+    "playerHeroTrait": "大いなる仁：印「蜀」を持つ英傑が若樹で出現しやすくなる / 若樹で映し出される英傑数+1\n桃誓双志：印「蜀」1つにつき攻撃力+5% / 各区画の戦闘開始時に、体力が20%以下なら50%まで回復（強化：印「蜀」1つにつき攻撃力+8% / 各区画の戦闘開始時に、体力が40%以下なら50%まで回復）"
+  },
+  {
+    "number": 203,
+    "name": "关羽",
+    "possessions": [
+      0,
+      5,
+      11
+    ],
+    "emblems": [
+      1,
+      103,
+      302,
+      203
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "裂刃・炎：前方を薙ぎ払う炎属性の斬撃を放つ（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "五虎集結：この英傑召喚時に、印「蜀の五虎大将」を持つ英傑も召喚される",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "302": 5
+      }
+    },
+    "playerHeroTrait": "軍神：印「猛将」1つにつき攻撃力+5% / 敵の攻撃を受けると、3秒間無敵になる（強化：印「猛将」1つにつき攻撃力+6%）\n桃誓偃月刀：召喚する英傑の攻撃力+30% / 体力50%以下のとき、通常攻撃に炎属性を付与（強化：通常攻撃に炎属性を付与）"
+  },
+  {
+    "number": 204,
+    "name": "张飞",
+    "possessions": [
+      0,
+      0,
+      14
+    ],
+    "emblems": [
+      1,
+      103,
+      302,
+      203
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "旋嵐・風：周囲の敵を打ち上げる風属性の大竜巻を発生させる（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "万人敵：強風状態の敵に対する攻撃力+100%（強化：強風状態の敵に対する攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "1": 10,
+        "103": 10
+      }
+    },
+    "playerHeroTrait": "燕人張飛：強風状態の敵に対する攻撃力+50% / 敵を強風状態にすると、無双ゲージがわずかに溜まる\n桃誓蛇矛：印「怪力」1つにつき攻撃力+10% / 敵の障壁を破壊すると、周囲の敵にダメージを与える爆発が発生（強化：印「怪力」1つにつき攻撃力+15%）"
+  },
+  {
+    "number": 205,
+    "name": "诸葛亮",
+    "possessions": [
+      1,
+      1,
+      13
+    ],
+    "emblems": [
+      1,
+      104,
+      202
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "星落とし・雷：広範囲に雷属性の隕石を複数落とす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "104": 5
+      }
+    },
+    "uniqueTactics": "臥龍の兵法：印「蜀」を持つ英傑の状態異常付与率が100%になり、属性攻撃力+50%（強化：すべての状態異常付与率が100%になり、属性攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        209
+      ],
+      "requiredAttributeDict": {
+        "1": 10
+      },
+      "requiredEmblemTypeDict": {
+        "1": 10
+      }
+    },
+    "playerHeroTrait": "至高の陣略：印「蜀」1つにつき一斉召喚ゲージ獲得量+10% / 印「知」の所持数+50%（強化：印「知」の所持数+70%）\n煽軍臥扇：英傑に対するすべての属性状態異常を無効化 / 遺宝「四輪車」を所持していると、攻撃力と防御力+50%（強化：すべての属性攻撃力+30% / 遺宝「四輪車」を所持していると、攻撃力と防御力+80%）"
+  },
+  {
+    "number": 206,
+    "name": "马超",
+    "possessions": [
+      0,
+      14
+    ],
+    "emblems": [
+      1,
+      103,
+      302,
+      401
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "無影の一閃・風：前方に突進し、風属性の一閃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        204
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "1": 5
+      }
+    },
+    "uniqueTactics": "錦馬超：風属性攻撃力+100%（強化：風属性攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 10
+      },
+      "requiredEmblemTypeDict": {
+        "401": 2
+      }
+    },
+    "playerHeroTrait": "西涼の熱き魂：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+30%（強化：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+40% / 印「風」1つにつき攻撃力+3%）\n勇魂貫義槍：ノロイバキに対する攻撃力+50% / 危険地帯が発生しやすくなる（強化：ノロイバキに対する攻撃力+300% / 印「風」の所持数+50%）"
+  },
+  {
+    "number": 207,
+    "name": "黄忠",
+    "possessions": [
+      0,
+      5
+    ],
+    "emblems": [
+      1,
+      107,
+      302
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "五月雨撃ち・風：広範囲に風属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        203,
+        208
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "神箭百中：召喚技「五月雨撃ち」の攻撃力+120%（強化：召喚技「五月雨撃ち」の攻撃力+140%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 5
+      },
+      "requiredEmblemTypeDict": {
+        "107": 2
+      }
+    },
+    "playerHeroTrait": "老当益壮：レベルアップ時に無双ゲージと一斉召喚ゲージが50%溜まる / 弓兵に対する攻撃力+50%（強化：印「弓の名手」1つにつき攻撃力+15%）\n星霜貫弓：印「蜀」1つにつき無双ゲージ獲得量+10% / 敵を強風状態にすると、残り召喚待機時間-1秒（強化：印「蜀」1つにつき無双ゲージ獲得量+15% / 敵を強風状態にすると、残り召喚待機時間-2秒）"
+  },
+  {
+    "number": 208,
+    "name": "魏延",
+    "possessions": [
+      15,
+      15
+    ],
+    "emblems": [
+      1,
+      103
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "旋嵐・斬：周囲の敵を打ち上げる斬属性の大竜巻を発生させる（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202,
+        201
+      ],
+      "requiredAttributeDict": {
+        "15": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "反骨の刃：紅涙を獲得すると、10秒間攻撃力+50%（強化：紅涙を獲得すると、20秒間攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "15": 5
+      },
+      "requiredEmblemTypeDict": {
+        "103": 3
+      }
+    },
+    "playerHeroTrait": "異形の狂戦士：連続1000HITごとに、15秒間攻撃力+30%（強化：連続1000HITごとに、30秒間攻撃力+70% / 紅涙を獲得すると、10秒間攻撃力+50%）\n双獣強喰閃：敵に裂傷を与えると、一斉召喚ゲージがわずかに溜まる / 敵の攻撃を受けると、20秒間攻撃力+50%（強化：敵の攻撃を受けると、20秒間攻撃力+70%）"
+  },
+  {
+    "number": 209,
+    "name": "月英",
+    "possessions": [
+      12
+    ],
+    "emblems": [
+      1,
+      202
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "破甲の鋭刃・氷：敵の障壁に大きなダメージを与える氷属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        205
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "爆走虎戦車：印「蜀」を持つ英傑の召喚待機時間-20%（強化：印「蜀」を持つ英傑の、召喚待機時間-30%、攻撃力+20%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "1": 3,
+        "202": 5
+      }
+    },
+    "playerHeroTrait": "発明家の閃き：若樹での英傑再選出回数+15（強化：最初から玻璃のしずくを1個所持）\n機操天凱：印「蜀」1つにつき攻撃力+5% / 経験値を獲得すると、無双ゲージがわずかに溜まる（強化：印「蜀」1つにつき攻撃力+7% / 印「蜀」を持つ英傑の召喚待機時間-20%）"
+  },
+  {
+    "number": 210,
+    "name": "庞统",
+    "possessions": [
+      1,
+      14
+    ],
+    "emblems": [
+      1,
+      104
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "威圧の陣・防：敵の防御力を下げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        205
+      ],
+      "requiredAttributeDict": {
+        "1": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "鳳雛の秘策：印「蜀」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「蜀」「才賢」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 5
+      },
+      "requiredEmblemTypeDict": {
+        "104": 3
+      }
+    },
+    "playerHeroTrait": "鳳雛の英知：印「蜀」1つにつき無双ゲージ獲得量+10%（強化：敵に強風を与えると、残り召喚待機時間-2秒）\n吹戦鳳扇：各区画の戦闘開始時に、体力が20%以下なら50%まで回復 / 無双乱舞／無双奥義で撃破した敵の経験値+100%（強化：各区画の戦闘開始時に、体力が40%以下なら50%まで回復）"
+  },
+  {
+    "number": 211,
+    "name": "徐庶",
+    "possessions": [
+      1,
+      15
+    ],
+    "emblems": [
+      0,
+      1,
+      104
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "必中の刃・斬：強敵を自動で追尾する斬属性の弾を複数放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        205,
+        210
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "機略縦横：印「軍師」を持つ英傑の攻撃力+30%（強化：印「蜀」「猛将」「軍師」を持つ英傑の攻撃力+60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "15": 5
+      },
+      "requiredEmblemTypeDict": {
+        "104": 3
+      }
+    },
+    "playerHeroTrait": "放浪の軍師：若樹で映し出される英傑数+1（強化：印「軍師」1つにつき攻撃力+7%）\n死線剣：印「蜀」を持つ英傑が若樹で出現しやすくなる / 敵に裂傷を与えると、無双ゲージがわずかに溜まる"
+  },
+  {
+    "number": 212,
+    "name": "关平",
+    "possessions": [
+      0,
+      15
+    ],
+    "emblems": [
+      1,
+      110
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "かまいたち・斬：周囲の敵を巻き込みながら進む斬属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        203,
+        216
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "斬馬一閃：斬属性攻撃の敵障壁への攻撃力+30%（強化：斬属性攻撃の敵障壁への攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "15": 5
+      },
+      "requiredEmblemTypeDict": {
+        "110": 2
+      }
+    },
+    "playerHeroTrait": "全身全霊：体力50%以下のとき、通常攻撃に斬属性を付与（強化：通常攻撃に斬属性を付与 / 印「次代の担い手」1つにつき攻撃力+7%）\n継武斬界刀：印「蜀」1つにつき無双ゲージ獲得量+10% / 敵の予兆攻撃を妨害すると、5秒間攻撃力+30%（強化：印「蜀」1つにつき無双ゲージ獲得量+15% / 敵の予兆攻撃を妨害すると、15秒間攻撃力+50%）"
+  },
+  {
+    "number": 213,
+    "name": "关银屏",
+    "possessions": [
+      0,
+      11
+    ],
+    "emblems": [
+      1,
+      204,
+      203,
+      110
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "爆裂玉・炎：一定時間後に爆発する炎属性の弾を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        203
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "204": 3
+      }
+    },
+    "uniqueTactics": "虎子の覚醒：召喚技「爆裂玉」の攻撃力+100%（強化：召喚技「爆裂玉」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "203": 2
+      }
+    },
+    "playerHeroTrait": "元気娘の勧誘：印「蜀」を持つ英傑が若樹で出現しやすくなる（強化：若樹での英傑再選出回数+8回）\n重剛巨神錘：印「怪力」1つにつき攻撃力+10% / 連続1000HITごとに、15秒間攻撃力+30%（強化：印「怪力」1つにつき攻撃力+15% / 連続1000HITごとに、15秒間攻撃力+70%）"
+  },
+  {
+    "number": 214,
+    "name": "法正",
+    "possessions": [
+      14
+    ],
+    "emblems": [
+      1,
+      104
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "共振の弾・風：攻撃すると風属性の衝撃波が放たれる弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        205
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "報恩報復の計：強風状態の敵を攻撃すると、一斉召喚ゲージがわずかに溜まる（強化：強風状態の敵を攻撃すると、一斉召喚ゲージが少し溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 5,
+        "14": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "報いの精神：敵の攻撃を受けると、20秒間攻撃力+50%（強化：区画突破ごとに、チャージ攻撃の攻撃力+5%(最大100%)）\n報業麗糸布：印「蜀」1つにつき攻撃力+5% / 敵を強風状態にすると、無双ゲージがわずかに溜まる（強化：印「蜀」1つにつき攻撃力+7%）"
+  },
+  {
+    "number": 215,
+    "name": "姜维",
+    "possessions": [
+      4,
+      5
+    ],
+    "emblems": [
+      1,
+      103,
+      202,
+      401,
+      108
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "剣の舞・雷：前方に、旋回する雷属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        201,
+        205
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "麒麟児：召喚技「剣の舞」を持つ英傑の召喚待機時間-50%（強化：召喚技「剣の舞」を持つ英傑の召喚待機時間-70%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 5,
+        "1": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "正道を貫く大志：レベルアップ時に、20秒間攻撃力+50% / レベルアップ時に体力が20%回復（強化：レベルアップ時に、20秒間攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+50% / レベルアップ時に体力が40%回復）\n天馬騎穹閃：敵を感電状態にすると、無双ゲージがわずかに溜まる / 陣形のスロットボーナス効果2倍（強化：陣形のスロットボーナス効果3倍）"
+  },
+  {
+    "number": 216,
+    "name": "星彩",
+    "possessions": [
+      4,
+      14
+    ],
+    "emblems": [
+      1,
+      204,
+      110,
+      109
+    ],
+    "mainEmblem": 1,
+    "summonSkill": "攻円の計・風：敵に風属性ダメージを与える空間を作る（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        204
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "星眼の護り：印「蜀」1つにつき防御力+5%（強化：印「蜀」1つにつき防御力+7%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "1": 5,
+        "204": 3
+      }
+    },
+    "playerHeroTrait": "蜀の守り手：印「蜀」1つにつき防御力+5%（強化：印「蜀」1つにつき防御力+7% / 印「堅」の所持数+50%）\n聖盾魔剣：体力80%以上のとき、無双ゲージ獲得量+20% / 無双乱舞／無双奥義で撃破した敵の経験値+100%（強化：印「主君の盾」1つにつき無双ゲージ獲得量+20%）"
+  },
+  {
+    "number": 301,
+    "name": "司马懿",
+    "possessions": [
+      5,
+      1,
+      12
+    ],
+    "emblems": [
+      0,
+      3,
+      104,
+      108
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "連射砲・氷：一定時間、氷属性の刃を放つ弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        14
+      ],
+      "requiredAttributeDict": {
+        "1": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "狼顧の相：敵をいずれかの状態異常にすると、周囲の敵が氷結状態になる",
+    "activationCondition": {
+      "requiredHeroes": [
+        2
+      ],
+      "requiredAttributeDict": {
+        "12": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "深謀の鬼才：印「知」の所持数+50% / 敵を氷結状態にすると、無双ゲージがわずかに溜まる（強化：印「知」の所持数+70%）\n払愚：体力50%以下のとき、すべての英傑の召喚待機時間-50% / 氷結状態の敵に対する攻撃力+50%（強化：体力80%以下のとき、すべての英傑の召喚待機時間-50%）"
+  },
+  {
+    "number": 302,
+    "name": "张春华",
+    "possessions": [
+      2,
+      15
+    ],
+    "emblems": [
+      0,
+      3,
+      202
+    ],
+    "mainEmblem": 0,
+    "summonSkill": "鼓舞の陣・攻：味方の攻撃力を一定時間上げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        301
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "202": 3
+      }
+    },
+    "uniqueTactics": "慈愛の肉まん：各区画の戦闘開始時に、体力が20%回復（強化：各区画の戦闘開始時に、体力が25%回復）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "料理上手：桃の体力回復量+50%（強化：体力回復量+30%）\n縛神爪：印「才賢」1つにつき一斉召喚ゲージ獲得量+10% / 50体撃破ごとに、体力が1%回復（強化：50体撃破ごとに、体力が2%回復）"
+  },
+  {
+    "number": 303,
+    "name": "司马师",
+    "possessions": [
+      4,
+      12
+    ],
+    "emblems": [
+      3,
+      202,
+      108,
+      110
+    ],
+    "mainEmblem": 3,
+    "summonSkill": "共振の弾・氷：攻撃すると氷属性の衝撃波が放たれる弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        301,
+        302
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "沈毅号令：印「晋」を持つ英傑の攻撃力+40%（強化：印「晋」「次代の担い手」を持つ英傑の攻撃力+70%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 5
+      },
+      "requiredEmblemTypeDict": {
+        "3": 3
+      }
+    },
+    "playerHeroTrait": "冷徹な心：敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：敵の障壁に対するチャージ攻撃の攻撃力+50% / 印「晋」1つにつき防御力+15%）\n貫命剣：印「晋」1つにつき無双ゲージ獲得量+15% / 印「大将軍」1つにつき攻撃力+10%（強化：印「大将軍」1つにつき攻撃力+15%）"
+  },
+  {
+    "number": 304,
+    "name": "司马昭",
+    "possessions": [
+      3,
+      2
+    ],
+    "emblems": [
+      3,
+      202,
+      108,
+      110
+    ],
+    "mainEmblem": 3,
+    "summonSkill": "星落とし・風：広範囲に風属性の隕石を複数落とす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        301,
+        305
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "奔放戦略：この英傑召喚時に、印「晋」を持つ英傑も召喚される（強化：この英傑召喚時に、印「晋」「次代の担い手」を持つ英傑も召喚される）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "3": 3
+      }
+    },
+    "playerHeroTrait": "奔放な心：体力80%以上のとき、すべての英傑の召喚待機時間-20% / ノロイバキに対する攻撃力+50%（強化：ノロイバキに対する攻撃力+300%）\n烈間流止刀：印「晋」1つにつき一斉召喚ゲージ獲得量+15% / 印「速」1つにつき攻撃力+3%（強化：印「速」1つにつき攻撃力+4%）"
+  },
+  {
+    "number": 305,
+    "name": "王元姬",
+    "possessions": [
+      2,
+      12
+    ],
+    "emblems": [
+      3,
+      202
+    ],
+    "mainEmblem": 3,
+    "summonSkill": "必中の刃・氷：強敵を自動で追尾する氷属性の弾を複数放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        304
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "3": 3
+      }
+    },
+    "uniqueTactics": "活眼の明姫：印「才賢」を持つ英傑の攻撃力+30%（強化：印「才賢」を持つ英傑の、召喚待機時間-20%、攻撃力+30%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 5
+      },
+      "requiredEmblemTypeDict": {
+        "202": 3
+      }
+    },
+    "playerHeroTrait": "先見之明：体力80%以上のとき、一斉召喚ゲージ獲得量+20%（強化：印「晋」1つにつき一斉召喚ゲージ獲得量+15% / 印「才賢」を持つ英傑の召喚待機時間-20%）\n活眼風雹：印「晋」1つにつき攻撃力+10% / ノロイバキを4体撃破すると、10秒間攻撃を防ぐ障壁を張る（強化：印「晋」1つにつき攻撃力+17%）"
+  },
+  {
+    "number": 306,
+    "name": "钟会",
+    "possessions": [
+      4,
+      1
+    ],
+    "emblems": [
+      3,
+      202
+    ],
+    "mainEmblem": 3,
+    "summonSkill": "破甲の鋭刃・風：敵の障壁に大きなダメージを与える風属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        304,
+        215
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "才気煥発：印「才賢」を持つ英傑の状態異常付与率が100%になる",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 10
+      },
+      "requiredEmblemTypeDict": {
+        "202": 5
+      }
+    },
+    "playerHeroTrait": "自信過剰：敵の攻撃を受けずに区画を突破するたびに、攻撃力+3%(最大50%)（強化：敵の攻撃を受けずに区画を突破するたびに、攻撃力+3%(最大100%) / 敵の攻撃を受けずに区画を突破すると、出現するひずみの数+1）\n水仙飛神剣：経験値を獲得すると、無双ゲージがわずかに溜まる / 無双乱舞／無双奥義で撃破した敵の経験値+100%"
+  },
+  {
+    "number": 401,
+    "name": "张角",
+    "possessions": [
+      2,
+      11
+    ],
+    "emblems": [
+      4,
+      30,
+      101,
+      202
+    ],
+    "mainEmblem": 4,
+    "summonSkill": "弾除けの波動：弓兵の矢とノロイバキの弾をすべて消滅させる（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "101": 3,
+        "202": 6
+      }
+    },
+    "uniqueTactics": "黄天当立：各区画の戦闘開始時に、一斉召喚ゲージが20%溜まる（強化：各区画の戦闘開始時に、一斉召喚ゲージが50%溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 5
+      },
+      "requiredEmblemTypeDict": {
+        "101": 2
+      }
+    },
+    "playerHeroTrait": "天下大吉：亡者の記憶が発生しやすくなる（強化：最初から玻璃のしずくを3個所持）\n黄天賜杖：体力80%以上のとき、通常攻撃に炎属性を付与 / 敵の矢弾を破壊すると、体力が1%回復（強化：通常攻撃に炎属性を付与 / 敵の矢弾を破壊すると、体力が3%回復）"
+  },
+  {
+    "number": 402,
+    "name": "董卓",
+    "possessions": [
+      0,
+      11
+    ],
+    "emblems": [
+      6,
+      101,
+      401
+    ],
+    "mainEmblem": 6,
+    "summonSkill": "星落とし・炎：広範囲に炎属性の隕石を複数落とす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {
+        "401": 3
+      }
+    },
+    "uniqueTactics": "暴君の爆撃：炎属性攻撃の敵障壁への攻撃力+30%（強化：炎属性攻撃の敵障壁への攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 5
+      },
+      "requiredEmblemTypeDict": {
+        "6": 2
+      }
+    },
+    "playerHeroTrait": "悪逆無道：紅涙の獲得量+100%（強化：敵の障壁に対するチャージ攻撃の攻撃力+50%）\n羅喉弾：敵の予兆攻撃を妨害すると、5秒間攻撃力+30% / 所持している紅涙1000ごとに、攻撃力+5%(最大100%)（強化：敵の予兆攻撃を妨害すると、15秒間攻撃力+50% / 所持している紅涙1000ごとに、攻撃力+5%(最大150%)）"
+  },
+  {
+    "number": 403,
+    "name": "袁绍",
+    "possessions": [
+      2,
+      13
+    ],
+    "emblems": [
+      7,
+      101,
+      201,
+      108
+    ],
+    "mainEmblem": 7,
+    "summonSkill": "乱れ光弾・雷：障害物に当たると跳ね返る雷属性の光弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 8
+      },
+      "requiredEmblemTypeDict": {
+        "108": 3
+      }
+    },
+    "uniqueTactics": "名族の行軍：感電状態の敵を攻撃すると、紅涙を獲得（強化：この英傑召喚時に、印「君主」「袁紹軍」を持つ英傑も召喚される）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 5
+      },
+      "requiredEmblemTypeDict": {
+        "7": 2
+      }
+    },
+    "playerHeroTrait": "四世三公：印「優美」1つにつき無双ゲージ獲得量+10%（強化：盟約を結んだ英傑1人につき、攻撃力と防御力+3%(最大150%)）\n絢爛貴高刺：敵を感電状態にすると、一斉召喚ゲージがわずかに溜まる / 紅涙の獲得量+50%（強化：紅涙の獲得量+100%）"
+  },
+  {
+    "number": 404,
+    "name": "吕布",
+    "possessions": [
+      0,
+      0,
+      4,
+      13
+    ],
+    "emblems": [
+      5,
+      6,
+      103,
+      107,
+      203
+    ],
+    "mainEmblem": 5,
+    "summonSkill": "鬼神の一喝：一喝による衝撃で、周囲の敵を吹き飛ばす（待機39秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        405
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "人中の呂布：雷属性の追加ダメージ+200%（強化：雷属性の追加ダメージ+300%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {
+        "103": 3
+      }
+    },
+    "playerHeroTrait": "鬼神：撃破した敵が爆発し、周囲の敵にダメージを与える / 敵を感電状態にすると、無双ゲージがわずかに溜まる\n至神方天戟：印「呂布軍」1つにつき攻撃力+10% / 遺宝「赤兎馬」を所持していると、攻撃力と防御力+50%（強化：印「呂布軍」1つにつき攻撃力+30% / 遺宝「赤兎馬」を所持していると、攻撃力と防御力+80%）"
+  },
+  {
+    "number": 405,
+    "name": "貂蝉",
+    "possessions": [
+      2
+    ],
+    "emblems": [
+      5,
+      6,
+      201
+    ],
+    "mainEmblem": 5,
+    "summonSkill": "鼓舞の陣・速：味方の攻撃速度と素早さを一定時間上げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "策謀の舞：呂布の攻撃力+100%（強化：呂布の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        404,
+        402
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "傾城：印「魅」の所持数+50% / 印「董卓軍」1つにつき攻撃力+10%（強化：印「魅」の所持数+70% / 印「董卓軍」1つにつき攻撃力+18%）\n舞姫連環：50体撃破ごとに、体力が1%回復 / 無双乱舞／無双奥義で撃破した敵の経験値+100%"
+  },
+  {
+    "number": 406,
+    "name": "吕玲绮",
+    "possessions": [
+      3,
+      15
+    ],
+    "emblems": [
+      5,
+      6,
+      204
+    ],
+    "mainEmblem": 5,
+    "summonSkill": "乱れ光弾・斬：障害物に当たると跳ね返る斬属性の光弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        404
+      ],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "戦姫奮戦：印「呂布軍」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「呂布軍」「董卓軍」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 5
+      },
+      "requiredEmblemTypeDict": {
+        "204": 3
+      }
+    },
+    "playerHeroTrait": "鬼神の娘：回避後、10秒間攻撃速度+5%（強化：回避後、10秒間攻撃速度+10% / 敵の障壁に対するチャージ攻撃の攻撃力+50%）\n神鬼終止戟：印「呂布軍」1つにつき攻撃力+10% / 桃を獲得すると、10秒間攻撃力と防御力+50%（強化：印「呂布軍」1つにつき攻撃力+20% / 桃を獲得すると、45秒間攻撃力と防御力+50%）"
+  },
+  {
+    "number": 407,
+    "name": "陈宫",
+    "possessions": [
+      1,
+      13
+    ],
+    "emblems": [
+      5,
+      104
+    ],
+    "mainEmblem": 5,
+    "summonSkill": "威圧の陣・攻：敵の攻撃力を下げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        404
+      ],
+      "requiredAttributeDict": {
+        "13": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "掎角の計：この英傑召喚時に、印「呂布軍」を持つ英傑も召喚される（強化：この英傑召喚時に、印「呂布軍」「猛将」を持つ英傑も召喚される）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 5
+      },
+      "requiredEmblemTypeDict": {
+        "5": 2
+      }
+    },
+    "playerHeroTrait": "野心家の采配：印「猛将」を持つ英傑が若樹で出現しやすくなる（強化：一斉召喚の持続時間+50%）\n特命簡：印「呂布軍」1つにつき無双ゲージ獲得量+20% / 体力80%以上のとき、無双ゲージ獲得量+20%（強化：印「猛将」1つにつき無双ゲージ獲得量+7%）"
+  },
+  {
+    "number": 408,
+    "name": "孟获",
+    "possessions": [
+      0,
+      11
+    ],
+    "emblems": [
+      30,
+      101,
+      203
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "かまいたち・炎：周囲の敵を巻き込みながら進む炎属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        205
+      ],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "南中王の檄：孟獲・祝融の攻撃力+100%（強化：孟獲・祝融の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [
+        409
+      ],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "不屈の大王：体力が0になると、1回だけ復活する（強化：復活するごとに、攻撃力+80%(最大300%)）\n神殿猛震：桃樹での最大体力上昇量+10% / 桃を獲得すると、10秒間攻撃力と防御力+50%（強化：桃を獲得すると、45秒間攻撃力と防御力+50%）"
+  },
+  {
+    "number": 409,
+    "name": "祝融",
+    "possessions": [
+      3,
+      11
+    ],
+    "emblems": [
+      30,
+      103
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "乱れ光弾・炎：障害物に当たると跳ね返る炎属性の光弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        408
+      ],
+      "requiredAttributeDict": {
+        "3": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "火神の末裔：召喚技「乱れ光弾」の攻撃力+100%（強化：召喚技「乱れ光弾」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "猪突猛進：敵の攻撃を受けると、20秒間攻撃力+50%（強化：印「速」の所持数+50%）\n熱風焼野刃：炎上状態の敵に対する攻撃力+50% / 敵の予兆攻撃を妨害すると、5秒間攻撃速度+5%（強化：敵の予兆攻撃を妨害すると、15秒間攻撃速度+10%）"
+  },
+  {
+    "number": 410,
+    "name": "左慈",
+    "possessions": [
+      14,
+      13,
+      15
+    ],
+    "emblems": [
+      30,
+      201,
+      202
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "吸命の計・裏：敵を強風状態にして、状態異常の敵から体力を吸収する（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        202
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "202": 5
+      }
+    },
+    "uniqueTactics": "神仙の方術：階層の主に対しても裂傷で追加ダメージを与え、さらに裂傷による追加ダメージを強化する",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "15": 10
+      },
+      "requiredEmblemTypeDict": {
+        "30": 7
+      }
+    },
+    "playerHeroTrait": "明哲なる神仙：体力が0になると、1回だけ復活する / すべての属性系の印の所持数+20%（強化：体力が0になると、2回だけ復活する / すべての属性系の印の所持数+30%）\n封神聖符：階層の主に対しても裂傷で追加ダメージを与え、さらに裂傷による追加ダメージを強化する / 遺宝「遁甲天書」を所持していると、すべての属性の印の所持数+30%（強化：遺宝「遁甲天書」を所持していると、すべての属性の印の所持数+50%）"
+  },
+  {
+    "number": 501,
+    "name": "织田信长",
+    "possessions": [
+      4,
+      2,
+      15
+    ],
+    "emblems": [
+      9,
+      102,
+      202,
+      301,
+      106
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "地裂撃・斬：四方に斬属性の衝撃波を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        502
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "天下布武：印「織田」を持つ英傑の攻撃力+70%（強化：印「織田」を持つ英傑の攻撃力と、敵障壁への攻撃力+70%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "9": 7
+      }
+    },
+    "playerHeroTrait": "第六天魔王：印「織田」1つにつき攻撃力+7% / 敵に裂傷を与えると、無双ゲージがわずかに溜まる（強化：印「織田」1つにつき攻撃力+10%）\n太白星：召喚する英傑の攻撃力+30% / 敵の障壁を破壊すると、周囲の敵にダメージを与える爆発が発生（強化：召喚する英傑の攻撃力+50%）"
+  },
+  {
+    "number": 502,
+    "name": "浓姬",
+    "possessions": [
+      2,
+      15
+    ],
+    "emblems": [
+      9,
+      201
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "攻円の計・斬：敵に斬属性ダメージを与える空間を作る（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        501
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "マムシの毒牙：敵に裂傷を与えると、一斉召喚ゲージがわずかに溜まる（強化：敵に裂傷を与えると、一斉召喚ゲージが少し溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 5,
+        "15": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "胡蝶の英知：印「織田」1つにつき無双ゲージ獲得量+10%（強化：印「斬」1つにつき攻撃力+5%）\n銀薄羽：敵の障壁に対するチャージ攻撃の攻撃力+30% / 敵の矢弾を破壊すると、体力が1%回復（強化：敵の障壁に対するチャージ攻撃の攻撃力+50% / 敵の矢弾を破壊すると、体力が3%回復）"
+  },
+  {
+    "number": 503,
+    "name": "明智光秀",
+    "possessions": [
+      4,
+      12
+    ],
+    "emblems": [
+      9,
+      202,
+      106
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "吸命の計：状態異常の敵から体力を吸収する（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        504
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "106": 2
+      }
+    },
+    "uniqueTactics": "桔梗の明察：印「織田」を持つ英傑の、敵障壁への攻撃力+100%（強化：操作英傑の敵障壁への攻撃力+150%、防御力-60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "9": 3,
+        "202": 3
+      }
+    },
+    "playerHeroTrait": "博学多才：印「技」の所持数+50%（強化：印「鉄砲の名手」1つにつき攻撃力+15%）\n霊剣応報丸：体力50%以下のとき、無双ゲージ獲得量+50% / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 504,
+    "name": "森兰丸",
+    "possessions": [
+      12
+    ],
+    "emblems": [
+      9,
+      109
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "地裂撃・氷：四方に氷属性の衝撃波を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        501,
+        503
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "蘭にお任せを：印「織田」を持つ英傑が召喚された時、この英傑も召喚される",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "9": 4,
+        "109": 2
+      }
+    },
+    "playerHeroTrait": "魔王の側近：織田信長を召喚すると、10秒間攻撃力と防御力+50%（強化：織田信長を召喚すると、15秒間攻撃力と防御力+50% / 敵の矢弾を破壊すると、体力が3%回復）\n神威堅刃：体力50%以下のとき、防御力+200% / 敵の攻撃を受けると、3秒間無敵状態になる（強化：体力50%以下のとき、防御力+300%）"
+  },
+  {
+    "number": 505,
+    "name": "阿市",
+    "possessions": [
+      12
+    ],
+    "emblems": [
+      9,
+      15,
+      204,
+      201
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "鼓舞の陣・防：味方の防御力を一定時間上げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        902
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "戦場の白百合：体力が0になると、1回だけ復活する（強化：体力が0になると、2回だけ復活する）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "201": 7
+      }
+    },
+    "playerHeroTrait": "譲れない思い：亡者の記憶が発生しやすくなる（強化：体力が0になると、1回だけ復活する）\n白百合大輪：印「浅井」1つにつき無双ゲージ獲得量+20% / 各区画の戦闘開始時に、体力が20%以下なら50%まで回復（強化：各区画の戦闘開始時に、体力が40%以下なら50%まで回復）"
+  },
+  {
+    "number": 506,
+    "name": "柴田胜家",
+    "possessions": [
+      0,
+      13
+    ],
+    "emblems": [
+      9,
+      103
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "無影の一閃・雷：前方に突進し、雷属性の一閃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        505
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "かかれ柴田：印「猛将」を持つ英傑の召喚待機時間-20%（強化：印「織田」「猛将」を持つ英傑の、召喚待機時間-30%、敵障壁への攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "9": 3,
+        "103": 5
+      }
+    },
+    "playerHeroTrait": "瓶割り柴田：感電状態の敵に対する攻撃力+50%（強化：印「織田」1つにつき攻撃力+7%）\n双角鬼：印「織田」1つにつき無双ゲージ獲得量+10% / 体力50%以下のとき、一斉召喚ゲージ獲得量+50%（強化：印「織田」1つにつき無双ゲージ獲得量+15% / 印「猛将」を持つ英傑の召喚待機時間-20%）"
+  },
+  {
+    "number": 507,
+    "name": "前田利家",
+    "possessions": [
+      3,
+      14
+    ],
+    "emblems": [
+      9,
+      13,
+      103
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "剣の舞・風：前方に、旋回する風属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        501
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "槍の又左：印「織田」1つにつき無双ゲージ獲得量+5%（強化：印「織田」1つにつき無双ゲージ獲得量+6%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "9": 3
+      }
+    },
+    "playerHeroTrait": "熱血漢の侠気：印「織田」1つにつき攻撃力+5%（強化：印「織田」1つにつき攻撃力+7% / 印「豊臣」1つにつき無双ゲージ獲得量+7%）\n荒功十二業：強風状態の敵に対する攻撃力+50% / 無双乱舞／無双奥義で撃破した敵の経験値+100%"
+  },
+  {
+    "number": 508,
+    "name": "前田庆次",
+    "possessions": [
+      0,
+      3,
+      14
+    ],
+    "emblems": [
+      8,
+      9,
+      103,
+      204
+    ],
+    "mainEmblem": 8,
+    "summonSkill": "裂刃・風：前方を薙ぎ払う風属性の斬撃を放つ（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        805
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "天下御免の傾奇者：敵を強風状態にすると、周囲の敵を強風状態にする爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [
+        906
+      ],
+      "requiredAttributeDict": {
+        "14": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "大ふへん者：敵の予兆攻撃を妨害すると、5秒間攻撃力+30% / 敵を強風状態にすると、無双ゲージがわずかに溜まる（強化：敵の予兆攻撃を妨害すると、15秒間攻撃力+50% / 敵を強風状態にすると、無双ゲージが少し溜まる）\n乱裂：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+30% / 遺宝「松風」を所持していると、攻撃力と防御力+50%（強化：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+40% / 遺宝「松風」を所持していると、攻撃力と防御力+80%）"
+  },
+  {
+    "number": 509,
+    "name": "细川玉子 (伽罗奢)",
+    "possessions": [
+      2
+    ],
+    "emblems": [
+      9,
+      201,
+      110
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "かまいたち・氷：周囲の敵を巻き込みながら進む氷属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        503
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "天真爛漫：氷結状態の敵を攻撃すると、紅涙を獲得",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 3,
+        "12": 3
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "箱入り娘：各区画の戦闘開始時に、紅涙+500（強化：盟約を結んだ英傑1人につき、攻撃力と防御力+2%(最大150%)）\n神威代行：敵を氷結状態にすると、一斉召喚ゲージがわずかに溜まる / 所持している紅涙1000ごとに、攻撃力+5%(最大100%)（強化：所持している紅涙1000ごとに、攻撃力+5%(最大150%)）"
+  },
+  {
+    "number": 601,
+    "name": "丰臣秀吉",
+    "possessions": [
+      3,
+      2,
+      13
+    ],
+    "emblems": [
+      9,
+      13,
+      202,
+      301
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "爆裂玉・雷：一定時間後に爆発する雷属性の弾を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        602
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "一夜城：印「織田」「豊臣」を持つ英傑の召喚待機時間-30%（強化：所持している紅涙10000ごとに、召喚待機時間-10%(最大-50%)）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "301": 3
+      }
+    },
+    "playerHeroTrait": "千成瓢箪：印「豊臣」1つにつき一斉召喚ゲージ獲得量+10% / 紅涙の獲得量+50%（強化：紅涙の獲得量+100%）\n黄金打：敵を感電状態にすると、一斉召喚ゲージがわずかに溜まる / 所持している紅涙1000ごとに、攻撃力+5%(最大100%)（強化：印「豊臣」を持つ英傑の召喚待機時間-20% / 所持している紅涙1000ごとに、攻撃力+5%(最大150%)）"
+  },
+  {
+    "number": 602,
+    "name": "宁宁",
+    "possessions": [
+      3,
+      13
+    ],
+    "emblems": [
+      13,
+      105,
+      202
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "炸裂花・雷：当たった敵を引き寄せる雷属性の花火を前方に設置し、3発打ち上げる（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        601
+      ],
+      "requiredAttributeDict": {
+        "3": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "おねね様の一喝：この英傑召喚時に、印「豊臣」を持つ英傑も召喚される",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "13": 3
+      }
+    },
+    "playerHeroTrait": "豊臣の慈母：印「豊臣」1つにつき防御力+5%（強化：印「豊臣」1つにつき防御力+7% / 若樹での英傑再選出回数+15回）\n金曜刃：最初から玻璃のしずくを2個所持 / 回避後、10秒間攻撃速度+5%（強化：回避後、10秒間攻撃速度+10%）"
+  },
+  {
+    "number": 603,
+    "name": "竹中半兵卫",
+    "possessions": [
+      1,
+      12
+    ],
+    "emblems": [
+      9,
+      13,
+      104
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "煙霧の計・氷：周囲の敵を必ず氷結状態にする特殊な霧を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        601
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "104": 5
+      }
+    },
+    "uniqueTactics": "奇正の羅針盤：印「豊臣」を持つ英傑の攻撃力+40%（強化：印「豊臣」「織田」を持つ英傑の、攻撃力と防御力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 5
+      },
+      "requiredEmblemTypeDict": {
+        "13": 4
+      }
+    },
+    "playerHeroTrait": "知らぬ顔の策士：陣形のスロットボーナス効果2倍 / 印「知」の所持数+50%（強化：印「知」の所持数+70%）\n北斗星極：体力80%以上のとき、すべての英傑の召喚待機時間-20% / 弓兵に対する攻撃力+50%（強化：氷結状態の敵に対する攻撃力+50%）"
+  },
+  {
+    "number": 604,
+    "name": "黑田官兵卫",
+    "possessions": [
+      1,
+      15
+    ],
+    "emblems": [
+      9,
+      13,
+      104,
+      402
+    ],
+    "mainEmblem": 9,
+    "summonSkill": "破甲の鋭刃・斬：敵の障壁に大きなダメージを与える斬属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        601,
+        603
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "慄然たる策謀：印「豊臣」を持つ英傑の状態異常付与率が100%になり、属性攻撃力+50%",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "13": 5,
+        "104": 5
+      }
+    },
+    "playerHeroTrait": "慄然たる参謀：敵を一撃死させると、10秒間攻撃速度+10%（強化：印「知」1つにつき攻撃力+5%）\n富冥操球：体力50%以下のとき、無双ゲージ獲得量+50% / 印「知」の所持数+50%（強化：印「知」の所持数+70%）"
+  },
+  {
+    "number": 605,
+    "name": "石田三成",
+    "possessions": [
+      1,
+      12
+    ],
+    "emblems": [
+      13,
+      202
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "攻円の計・氷：敵に氷属性ダメージを与える空間を作る（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        606,
+        607
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "大一大万大吉：氷結状態の拘束時間+200%（強化：氷結状態の敵に対する攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "12": 5
+      },
+      "requiredEmblemTypeDict": {
+        "13": 2
+      }
+    },
+    "playerHeroTrait": "怜悧なる知将：印「豊臣」1つにつき無双ゲージ獲得量+10% / 印「知」の所持数+50%（強化：印「豊臣」1つにつき無双ゲージ獲得量+15%）\n雨過天晴：敵を氷結状態にすると、無双ゲージがわずかに溜まる / レベルアップ時に無双ゲージと一斉召喚ゲージが50%溜まる（強化：レベルアップ時に無双ゲージと一斉召喚ゲージが80%溜まる）"
+  },
+  {
+    "number": 606,
+    "name": "岛左近",
+    "possessions": [
+      0,
+      12
+    ],
+    "emblems": [
+      11,
+      13,
+      103,
+      202
+    ],
+    "mainEmblem": 11,
+    "summonSkill": "裂刃・氷：前方を薙ぎ払う氷属性の斬撃を放つ（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        605
+      ],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "鬼左近：氷結状態の敵を攻撃すると、一斉召喚ゲージがわずかに溜まる（強化：氷結状態の敵を攻撃すると、一斉召喚ゲージが少し溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "12": 5
+      },
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "playerHeroTrait": "剛毅なる軍略家：氷結状態の敵に対する攻撃力+50%（強化：印「才賢」1つにつき一斉召喚ゲージ獲得量+7%）\n剛毅力刀：階層の主に対する攻撃力+30% / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：階層の主に対する攻撃力+40% / 敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 607,
+    "name": "大谷吉继",
+    "possessions": [
+      5,
+      14
+    ],
+    "emblems": [
+      13,
+      15,
+      202
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "鼓舞の陣・速：味方の攻撃速度と素早さを一定時間上げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        605
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "百万石の采配：印「才賢」を持つ英傑の召喚待機時間-20%（強化：印「才賢」を持つ英傑の、召喚待機時間-30%、攻撃力+20%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "13": 3,
+        "202": 5
+      }
+    },
+    "playerHeroTrait": "洞観の才人：レベルアップ時に、20秒間防御力+200%（強化：レベルアップ時に、20秒間攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+50% / 敵の攻撃を受けると、20秒間攻撃力+70%）\n心眼煌爛：体力50%以下のとき、すべての英傑の召喚待機時間が-50% / 敵の予兆攻撃を妨害すると、5秒間攻撃速度+5%（強化：敵の予兆攻撃を妨害すると、15秒間攻撃速度+10%）"
+  },
+  {
+    "number": 608,
+    "name": "加藤清正",
+    "possessions": [
+      4,
+      11
+    ],
+    "emblems": [
+      13,
+      103
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "無影の一閃・炎：前方に突進し、炎属性の一閃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        601
+      ],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "七本槍の猛勇：召喚技「無影の一閃」の攻撃力+100%（強化：召喚技「無影の一閃」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "13": 2,
+        "103": 5
+      }
+    },
+    "playerHeroTrait": "反撃の牙：敵の攻撃で吹き飛ばされたとき、20秒間攻撃速度+10% / 敵の予兆攻撃を妨害すると、5秒間攻撃力+30%（強化：敵の攻撃を受けると、20秒間攻撃速度+10% / 敵の予兆攻撃を妨害すると、15秒間攻撃力+50%）\n虎刈：桃を獲得すると、無双ゲージと一斉召喚ゲージが20%溜まる / 階層の主に対する攻撃力+30%（強化：階層の主に対する攻撃力+60%）"
+  },
+  {
+    "number": 609,
+    "name": "真田幸村(壮年)",
+    "possessions": [
+      4,
+      1,
+      11
+    ],
+    "emblems": [
+      10,
+      13,
+      103,
+      104,
+      110
+    ],
+    "mainEmblem": 10,
+    "summonSkill": "裂刃・炎：前方を薙ぎ払う炎属性の斬撃を放つ（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        610
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "日ノ本一の兵：印「真田」「技」「知」を持つ英傑の攻撃力+100%（強化：印「真田」「技」「知」を持つ英傑の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "10": 5,
+        "110": 6
+      }
+    },
+    "playerHeroTrait": "真田の軍略：6レベルごとに、いずれかの印を獲得 / 炎上状態の敵に対する攻撃力+50%\n一朧：印「豊臣」1つにつき無双ゲージ獲得量+10% / 階層の主に対する、操作英傑の防御力+20%（強化：印「豊臣」1つにつき無双ゲージ獲得量+12% / 階層の主に対する、操作英傑の防御力+30%）"
+  },
+  {
+    "number": 610,
+    "name": "茶茶",
+    "possessions": [
+      4,
+      2
+    ],
+    "emblems": [
+      13,
+      15,
+      201,
+      110
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "連射砲・炎：一定時間、炎属性の刃を放つ弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        902,
+        505
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "姫の矜持：印「豊臣」「浅井」を持つ操作英傑の防御力+70%（強化：印「豊臣」「浅井」を持つ操作英傑の防御力+85%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 5
+      },
+      "requiredEmblemTypeDict": {
+        "201": 3
+      }
+    },
+    "playerHeroTrait": "誇り高き桜花：印「豊臣」1つにつき攻撃力+7% / 印「浅井」1つにつき防御力+15%（強化：印「豊臣」1つにつき攻撃力+8% / 印「浅井」1つにつき防御力+20%）\n神菊理：印「豊臣」を持つ英傑が若樹で出現しやすくなる / 敵を炎上状態にすると、一斉召喚ゲージがわずかに溜まる（強化：炎上状態の敵を攻撃すると、一斉召喚ゲージが少し溜まる）"
+  },
+  {
+    "number": 701,
+    "name": "德川家康",
+    "possessions": [
+      5,
+      2,
+      11
+    ],
+    "emblems": [
+      12,
+      102,
+      202,
+      301
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "五月雨撃ち・炎：広範囲に炎属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        703
+      ],
+      "requiredAttributeDict": {
+        "5": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "三河魂：印「徳川」を持つ英傑の攻撃力+50%（強化：印「徳川」を持つ英傑の、攻撃力と防御力+60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "12": 4
+      }
+    },
+    "playerHeroTrait": "ざっと済みたり：印「徳川」1つにつき攻撃力+5% / 5レベルごとに、最大体力+10%(最大100%)（強化：印「徳川」1つにつき攻撃力+10%）\n鎮乱泰平：印「徳川」1つにつき一斉召喚ゲージ獲得量+10% / 敵を炎上状態にすると、一斉召喚ゲージがわずかに溜まる（強化：印「徳川」1つにつき一斉召喚ゲージ獲得量+18%）"
+  },
+  {
+    "number": 702,
+    "name": "服部半藏",
+    "possessions": [
+      3,
+      3
+    ],
+    "emblems": [
+      12,
+      105
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "煙霧の計・雷：周囲の敵を必ず感電状態にする特殊な霧を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        701
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "忍法・爆雷術：感電状態の敵を攻撃すると、周囲の敵にダメージを与える爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 10
+      },
+      "requiredEmblemTypeDict": {
+        "105": 2
+      }
+    },
+    "playerHeroTrait": "伊賀忍の奥義：印「徳川」1つにつき攻撃力+5% / 連続1000HITごとに、15秒間攻撃速度+10%（強化：印「徳川」1つにつき攻撃力+12% / 連続1000HITごとに、30秒間攻撃速度+10%）\n虹走：印「速」の所持数+50% / 素早さの50%を攻撃力に加える（強化：敵の障壁を破壊すると、雷属性の追加ダメージが発生）"
+  },
+  {
+    "number": 703,
+    "name": "本多忠胜",
+    "possessions": [
+      0,
+      5,
+      5,
+      11
+    ],
+    "emblems": [
+      12,
+      103,
+      204
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "古今独歩の一撃：周囲の敵にダメージを与える地割れを発生させる（待機39秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        701,
+        704
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "花実兼備：炎上状態の炎による継続ダメージ+200%（強化：炎上状態の炎による継続ダメージ+300%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "5": 5
+      },
+      "requiredEmblemTypeDict": {
+        "103": 3
+      }
+    },
+    "playerHeroTrait": "無傷の闘将：印「徳川」1つにつき防御力+5% / 敵の攻撃を受けると、3秒間無敵状態になる（強化：印「徳川」1つにつき攻撃力と防御力+10%）\n竜蠅斬：体力80%以上のとき、攻撃力+20% / ノロイバキ4体撃破すると、10秒間攻撃を防ぐ障壁を張る（強化：体力80%以上のとき、攻撃力+50%）"
+  },
+  {
+    "number": 704,
+    "name": "稻姬",
+    "possessions": [
+      4,
+      13
+    ],
+    "emblems": [
+      10,
+      12,
+      107,
+      204,
+      110
+    ],
+    "mainEmblem": 10,
+    "summonSkill": "五月雨撃ち・雷：広範囲に雷属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        807
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "稲妻の矢：感電状態の敵を攻撃すると、無双ゲージがわずかに溜まる（強化：感電状態の敵を攻撃すると、無双ゲージが少し溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "勇敢なる大和撫子：印「戦場の華」1つにつき攻撃力+5%（強化：印「戦場の華」1つにつき攻撃力+7% / 階層の主に対する攻撃力+30%）\n討蠍弓：印「徳川」1つにつき無双ゲージ獲得量+10% / 印「技」の所持数+50%（強化：印「徳川」1つにつき無双ゲージ獲得量+18%）"
+  },
+  {
+    "number": 705,
+    "name": "井伊直虎",
+    "possessions": [
+      3,
+      13
+    ],
+    "emblems": [
+      12,
+      16,
+      204
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "連射砲・雷：一定時間、雷属性の刃を放つ弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        706
+      ],
+      "requiredAttributeDict": {
+        "13": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "真っ向勝負：印「戦場の華」を持つ英傑の召喚待機時間-20%（強化：印「徳川」「戦場の華」を持つ英傑の、召喚待機時間-30%、敵障壁への攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "204": 3
+      }
+    },
+    "playerHeroTrait": "井伊家家訓：連続1000HITごとに、15秒間攻撃速度+10%（強化：連続1000HITごとに、30秒間攻撃速度+10% / 連続1000HITごとに、体力が5%回復）\n美神愛姫：敵を感電状態にすると、残り召喚待機時間-1秒 / 印「次代の担い手」1つにつき攻撃力+5%（強化：敵を感電状態にすると、残り召喚待機時間-2秒 / 印「次代の担い手」1つにつき攻撃力+7%）"
+  },
+  {
+    "number": 706,
+    "name": "井伊直政",
+    "possessions": [
+      3,
+      11
+    ],
+    "emblems": [
+      12,
+      103,
+      110
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "剣の舞・炎：前方に、旋回する炎属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        703
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "井伊の赤備え：召喚技「剣の舞」の攻撃力+100%（強化：召喚技「剣の舞」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "103": 2
+      }
+    },
+    "playerHeroTrait": "徳川の新星：印「徳川」1つにつき攻撃力+5%（強化：印「徳川」1つにつき攻撃力+12% / 印「炎」の所持数+50%）\n六六六：敵を炎上状態にすると、残り召喚待機時間-1秒 / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：敵を炎上状態にすると、残り召喚待機時間-2秒 / 敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 707,
+    "name": "藤堂高虎",
+    "possessions": [
+      5,
+      12
+    ],
+    "emblems": [
+      12,
+      13,
+      15,
+      202,
+      106
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "星落とし・氷：広範囲に氷属性の隕石を複数落とす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        607
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "冷徹なる氷刃：召喚技「星落とし」の攻撃力+100%（強化：召喚技「星落とし」の攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "12": 5
+      },
+      "requiredEmblemTypeDict": {
+        "202": 2
+      }
+    },
+    "playerHeroTrait": "渡り奉公人：若樹で映し出される英傑数+1（強化：敵の攻撃を受けずに区画を突破すると、出現するひずみの数+1）\n刹志零度：体力80%以上のとき、通常攻撃に氷属性を付与 / 氷結状態の敵に対する攻撃力+50%"
+  },
+  {
+    "number": 708,
+    "name": "北条氏康",
+    "possessions": [
+      5,
+      14
+    ],
+    "emblems": [
+      14,
+      103,
+      102
+    ],
+    "mainEmblem": 14,
+    "summonSkill": "飛剣・風：前方に風属性の斬撃を飛ばす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "5": 10
+      },
+      "requiredEmblemTypeDict": {
+        "102": 3
+      }
+    },
+    "uniqueTactics": "五色備え：印「猛将」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「猛将」「忍」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "14": 2,
+        "103": 5
+      }
+    },
+    "playerHeroTrait": "相模の獅子：印「北条」1つにつき攻撃力+20% / 印「堅」の所持数+50%（強化：印「北条」1つにつき攻撃力と防御力+25% / 印「堅」の所持数+70%）\n獅爪杖：体力80%以上のとき、通常攻撃に風属性を付与 / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：敵の障壁に対するチャージ攻撃の攻撃力+50%）"
+  },
+  {
+    "number": 709,
+    "name": "甲斐姬",
+    "possessions": [
+      0,
+      13
+    ],
+    "emblems": [
+      13,
+      14,
+      204,
+      203
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "かまいたち・雷：周囲の敵を巻き込みながら進む雷属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        708
+      ],
+      "requiredAttributeDict": {
+        "13": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "浮城の戦華：印「戦場の華」を持つ英傑の攻撃力+30%（強化：印「戦場の華」「怪力」を持つ英傑の、攻撃力+60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {
+        "204": 5
+      }
+    },
+    "playerHeroTrait": "乙女の心意気：連続1000HITごとに、15秒間攻撃力+30%（強化：印「力」の所持数+50%）\n海割：印「戦場の華」1つにつき攻撃力+5% / 体力50%以下のとき、通常攻撃に雷属性を付与（強化：印「戦場の華」1つにつき攻撃力+7% / 体力90%以下のとき、通常攻撃に雷属性を付与）"
+  },
+  {
+    "number": 710,
+    "name": "风魔小太郎",
+    "possessions": [
+      3,
+      15
+    ],
+    "emblems": [
+      14,
+      105
+    ],
+    "mainEmblem": 14,
+    "summonSkill": "炸裂花・斬：当たった敵を引き寄せる斬属性の花火を前方に設置し、3発打ち上げる（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        708
+      ],
+      "requiredAttributeDict": {
+        "15": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "風魔の幻術：召喚技「飛剣」を持つ英傑が召喚された時、この英傑も召喚される（強化：召喚技「飛剣」を持つ英傑が召喚された時、印「忍」を持つ英傑も召喚される）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 10
+      },
+      "requiredEmblemTypeDict": {
+        "105": 2
+      }
+    },
+    "playerHeroTrait": "混沌の風壁：素早さの50%を防御力に加える（強化：印「斬」の所持数+50% / 印「北条」1つにつき攻撃力と防御力+25%）\n冥府魔手：敵を一撃死させると、10秒間攻撃速度+10% / 敵の矢弾を破壊すると、無双ゲージが1%溜まる（強化：敵の矢弾を破壊すると、無双ゲージが3%溜まる）"
+  },
+  {
+    "number": 801,
+    "name": "真田幸村",
+    "possessions": [
+      4,
+      11
+    ],
+    "emblems": [
+      11,
+      10,
+      103,
+      202,
+      110
+    ],
+    "mainEmblem": 11,
+    "summonSkill": "飛剣・炎：前方に炎属性の斬撃を飛ばす（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 10
+      },
+      "requiredEmblemTypeDict": {
+        "103": 5
+      }
+    },
+    "uniqueTactics": "六文銭：炎属性攻撃力+100%（強化：炎属性攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 10
+      },
+      "requiredEmblemTypeDict": {
+        "10": 2
+      }
+    },
+    "playerHeroTrait": "真田の魂：敵の矢弾を破壊すると、体力が1%回復（強化：印「炎」1つにつき攻撃力+3%）\n一朧：印「猛将」1つにつき攻撃力+5% / 経験値を獲得すると、無双ゲージがわずかに溜まる（強化：印「猛将」1つにつき攻撃力+6% / 印「炎」の所持数+50%）"
+  },
+  {
+    "number": 802,
+    "name": "女忍",
+    "possessions": [
+      3
+    ],
+    "emblems": [
+      11,
+      10,
+      105,
+      109
+    ],
+    "mainEmblem": 11,
+    "summonSkill": "五月雨撃ち・氷：広範囲に氷属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        801
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "真田の懐刀：印「真田」を持つ英傑の状態異常付与率が100%になる（強化：印「真田」を持つ英傑の状態異常付与率が100%になり、属性攻撃力+20%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "10": 3
+      }
+    },
+    "playerHeroTrait": "闇に舞う花：素早さの50%を攻撃力に加える / 弓兵に対する攻撃力+50%（強化：印「真田」1つにつき攻撃力+15% / 50体撃破ごとに、体力が1%回復）\n夜走虚駆：印「真田」1つにつき無双ゲージ獲得量+15% / 印「速」の所持数+50%（強化：印「真田」1つにつき無双ゲージ獲得量+20%）"
+  },
+  {
+    "number": 803,
+    "name": "武田信玄",
+    "possessions": [
+      5,
+      5,
+      2
+    ],
+    "emblems": [
+      11,
+      102,
+      202
+    ],
+    "mainEmblem": 11,
+    "summonSkill": "鉄壁：一定時間、周囲に攻撃を1度だけ防ぐ障壁を張る（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        804
+      ],
+      "requiredAttributeDict": {
+        "5": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "風林火山：印「武田」を持つ英傑の召喚待機時間-20%、攻撃力+40%（強化：すべての属性攻撃力+60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "5": 5
+      },
+      "requiredEmblemTypeDict": {
+        "11": 3
+      }
+    },
+    "playerHeroTrait": "甲斐の虎：体力80%以上のとき、防御力+50% / 印「武田」を持つ英傑が若樹で出現しやすくなる（強化：体力80%以上のとき、攻撃力と防御力+50%）\n難知如陰：印「武田」1つにつき一斉召喚ゲージ獲得量+15% / 遺宝「小桜韋威鎧」を所持していると、攻撃力と防御力+50%（強化：印「武田」1つにつき一斉召喚ゲージ獲得量+25% / 遺宝「小桜韋威鎧」を所持していると、攻撃力と防御力+80%）"
+  },
+  {
+    "number": 804,
+    "name": "上杉谦信",
+    "possessions": [
+      0,
+      4,
+      13
+    ],
+    "emblems": [
+      8,
+      103,
+      102
+    ],
+    "mainEmblem": 8,
+    "summonSkill": "裂刃・雷：前方を薙ぎ払う雷属性の斬撃を放つ（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        803
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "毘沙門天：召喚技「裂刃」の攻撃力+150%（強化：召喚技「裂刃」の攻撃力+170%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 5
+      },
+      "requiredEmblemTypeDict": {
+        "102": 3
+      }
+    },
+    "playerHeroTrait": "越後の龍：召喚する英傑の攻撃力+20% / 印「力」の所持数+50%（強化：印「力」の所持数+70%）\n神炎：レベルアップ時に無双ゲージと一斉召喚ゲージが50%溜まる / 100体撃破ごとに、10秒間攻撃力+50%（強化：100体撃破ごとに、20秒間攻撃力+70%）"
+  },
+  {
+    "number": 805,
+    "name": "直江兼续",
+    "possessions": [
+      1,
+      13
+    ],
+    "emblems": [
+      8,
+      13,
+      104
+    ],
+    "mainEmblem": 8,
+    "summonSkill": "共振の弾・雷：攻撃すると雷属性の衝撃波が放たれる弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        605
+      ],
+      "requiredAttributeDict": {
+        "1": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "直江状：印「上杉」「豊臣」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「上杉」「豊臣」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "8": 2
+      }
+    },
+    "playerHeroTrait": "仁愛の義士：印「上杉」1つにつき無双ゲージ獲得量+20% / 召喚する英傑の攻撃力+20%（強化：印「上杉」1つにつき無双ゲージ獲得量+30% / 召喚する英傑の攻撃力+50%）\n秤義輝星：ノロイバキを1体撃破すると、体力が3%回復 / 敵の矢弾を破壊すると、一斉召喚ゲージが1%溜まる（強化：印「雷」の所持数+50%）"
+  },
+  {
+    "number": 806,
+    "name": "真田昌幸",
+    "possessions": [
+      4,
+      1
+    ],
+    "emblems": [
+      11,
+      10,
+      102,
+      104
+    ],
+    "mainEmblem": 11,
+    "summonSkill": "攻円の計・斬：敵に斬属性ダメージを与える空間を作る（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        803
+      ],
+      "requiredAttributeDict": {
+        "1": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "表裏比興：印「軍師」を持つ英傑の状態異常付与率が100%になる（強化：印「軍師」「大名」を持つ英傑の状態異常付与率が100%になる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "11": 2,
+        "104": 5
+      }
+    },
+    "playerHeroTrait": "真田の智謀：印「真田」1つにつき一斉召喚ゲージ獲得量+15% / 敵に裂傷を与えると、無双ゲージがわずかに溜まる（強化：印「真田」1つにつき、無双ゲージ獲得量と一斉召喚ゲージ獲得量+15% / 解放されているすべての陣形が使用可能になる）\n白山妙理御旗：印「才賢」を持つ英傑が若樹で出現しやすくなる / レベルアップ時に無双ゲージと一斉召喚ゲージが50%溜まる"
+  },
+  {
+    "number": 807,
+    "name": "真田信之",
+    "possessions": [
+      5,
+      13
+    ],
+    "emblems": [
+      11,
+      10,
+      12,
+      202,
+      110
+    ],
+    "mainEmblem": 11,
+    "summonSkill": "破甲の鋭刃・雷：敵の障壁に大きなダメージを与える雷属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        806,
+        704
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "天下之飾：印「武田」「真田」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「武田」「真田」「徳川」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 5
+      },
+      "requiredEmblemTypeDict": {
+        "110": 2
+      }
+    },
+    "playerHeroTrait": "真田の大器：連続1000HITごとに、15秒間防御力+100%（強化：連続1000HITごとに、30秒間防御力+120% / 区画突破ごとに、チャージ攻撃の攻撃力+5%(最大100%)）\n冥錢：敵を感電状態にすると、無双ゲージがわずかに溜まる / 敵の矢弾を破壊すると、体力が1%回復（強化：敵の矢弾を破壊すると、体力が2%回復）"
+  },
+  {
+    "number": 808,
+    "name": "佐助",
+    "possessions": [
+      3,
+      15
+    ],
+    "emblems": [
+      10,
+      105
+    ],
+    "mainEmblem": 10,
+    "summonSkill": "連射砲・斬：一定時間、斬属性の刃を放つ弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        801
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "疾風の闇：印「真田」を持つ英傑の召喚待機時間-20%（強化：印「真田」「忍」を持つ英傑の、召喚待機時間-20%、攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {
+        "10": 3
+      }
+    },
+    "playerHeroTrait": "迅雷の忍術：素早さの50%を攻撃力に加える / 弓兵に対する攻撃力+50%（強化：印「真田」1つにつき攻撃力+15% / 印「忍」1つにつき攻撃力+7%）\n光牙炫毘古：印「速」の所持数+50% / 敵の予兆攻撃を妨害すると、5秒間攻撃速度+5%（強化：敵の予兆攻撃を妨害すると、15秒間攻撃速度+10%）"
+  },
+  {
+    "number": 901,
+    "name": "伊达政宗",
+    "possessions": [
+      3,
+      14
+    ],
+    "emblems": [
+      12,
+      20,
+      102,
+      202,
+      106
+    ],
+    "mainEmblem": 12,
+    "summonSkill": "乱れ光弾・風：障害物に当たると跳ね返る風属性の光弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "102": 3,
+        "106": 2
+      }
+    },
+    "uniqueTactics": "独眼竜：強風状態の敵を攻撃すると、周囲の敵にダメージを与える爆発が発生",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 10
+      },
+      "requiredEmblemTypeDict": {
+        "202": 4
+      }
+    },
+    "playerHeroTrait": "覇者たるべき風格：敵を強風状態にすると、残り召喚待機時間-1秒（強化：敵を強風状態にすると、残り召喚待機時間-2秒 / 印「風」の所持数+50%）\n独眼鬼：体力50%以下のとき、通常攻撃に風属性を付与 / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：体力90%以下のとき、通常攻撃に風属性を付与 / 敵の障壁に対するチャージ攻撃の攻撃力+50%）"
+  },
+  {
+    "number": 902,
+    "name": "浅井长政",
+    "possessions": [
+      3,
+      12
+    ],
+    "emblems": [
+      15,
+      103,
+      102,
+      201
+    ],
+    "mainEmblem": 15,
+    "summonSkill": "剣の舞・氷：前方に、旋回する氷属性の刃を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        505
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "湖北の勇槍：氷結状態の敵を攻撃すると、無双ゲージがわずかに溜まる（強化：氷結状態の敵を攻撃すると、無双ゲージが少し溜まる）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "12": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "清廉なる勇将：敵を氷結状態にすると、残り召喚待機時間-1秒（強化：敵を氷結状態にすると、残り召喚待機時間-2秒 / 印「氷」の所持数+50%）\n聖槍脇刺：印「浅井」1つにつき攻撃力+10% / 回避後、10秒間攻撃速度+5%（強化：印「浅井」1つにつき攻撃力+20% / 回避後、10秒間攻撃速度+10%）"
+  },
+  {
+    "number": 903,
+    "name": "杂贺孙市",
+    "possessions": [
+      4,
+      4
+    ],
+    "emblems": [
+      13,
+      30,
+      103,
+      106
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "地裂撃・炎：四方に炎属性の衝撃波を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        601
+      ],
+      "requiredAttributeDict": {
+        "11": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "八咫烏：印「鉄砲の名手」を持つ英傑の攻撃力+40%（強化：印「鉄砲の名手」「無所属」を持つ英傑の、攻撃力と防御力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5,
+        "106": 3
+      }
+    },
+    "playerHeroTrait": "放浪の狙撃手：階層の主に対する攻撃力+30% / 敵の予兆攻撃を妨害すると、5秒間攻撃速度+5%（強化：敵の予兆攻撃を妨害すると、15秒間攻撃速度+10%）\n至高天：炎上状態の敵に対する攻撃力+50% / 敵の攻撃を受けずに区画を突破するたびに、攻撃力+3%(最大50%)（強化：敵の攻撃を受けずに区画を突破するたびに、攻撃力+3%(最大100%)）"
+  },
+  {
+    "number": 904,
+    "name": "今川义元",
+    "possessions": [
+      2,
+      14
+    ],
+    "emblems": [
+      16,
+      102,
+      201
+    ],
+    "mainEmblem": 16,
+    "summonSkill": "必中の刃・風：強敵を自動で追尾する風属性の弾を複数放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "16": 2
+      }
+    },
+    "uniqueTactics": "海道一の弓取り：この英傑召喚時に、印「大名」を持つ英傑も召喚される",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "102": 3,
+        "201": 5
+      }
+    },
+    "playerHeroTrait": "尊ぶは和の心：敵を強風状態にすると、一斉召喚ゲージがわずかに溜まる / 印「魅」の所持数+50%（強化：強風状態の敵を攻撃すると、一斉召喚ゲージが少し溜まる）\n蹴星：連続1000HITごとに、体力が5%回復 / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：敵の障壁に対するチャージ攻撃の攻撃力+60%）"
+  },
+  {
+    "number": 905,
+    "name": "石川五右卫门",
+    "possessions": [
+      0
+    ],
+    "emblems": [
+      30,
+      105
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "炸裂花・炎：当たった敵を引き寄せる炎属性の花火を前方に設置し、3発打ち上げる（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        906
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "天下の大泥棒：無双乱舞／無双奥義で撃破した敵が、必ず紅涙を落とす",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "大泥棒の心得：紅涙の獲得量+50% / 桃樹での最大体力上昇量+10%（強化：紅涙の獲得量+100%）\n度肝抜：所持している紅涙1000ごとに、攻撃力+5%(最大100%) / 回避後、10秒間攻撃速度+5%（強化：所持している紅涙1000ごとに、攻撃力+5%(最大150%) / 回避後、10秒間攻撃速度+10%）"
+  },
+  {
+    "number": 906,
+    "name": "阿国",
+    "possessions": [
+      14
+    ],
+    "emblems": [
+      30,
+      201,
+      203,
+      402
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "弾除けの波動：弓兵の矢とノロイバキの弾をすべて消滅させる（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        508
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "かぶき踊り：一斉召喚の発動時に、体力が20%回復（強化：一斉召喚の発動時に、体力が30%回復）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "30": 3,
+        "201": 5
+      }
+    },
+    "playerHeroTrait": "勧進行脚：若樹で映し出される英傑数+1（強化：印「無所属」1つにつき攻撃力+10%）\n千紫万紅：敵を強風状態にすると、残り召喚待機時間-1秒 / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：敵を強風状態にすると、残り召喚待機時間-2秒 / 敵の障壁に対するチャージ攻撃の攻撃力+50%）"
+  },
+  {
+    "number": 907,
+    "name": "毛利元就",
+    "possessions": [
+      1,
+      2
+    ],
+    "emblems": [
+      18,
+      107,
+      102,
+      202,
+      402
+    ],
+    "mainEmblem": 18,
+    "summonSkill": "五月雨撃ち・斬：広範囲に斬属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "1": 10
+      },
+      "requiredEmblemTypeDict": {
+        "102": 3
+      }
+    },
+    "uniqueTactics": "百万一心：印「魅」1つにつき攻撃力+5%",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "2": 10
+      },
+      "requiredEmblemTypeDict": {
+        "402": 2
+      }
+    },
+    "playerHeroTrait": "稀代の謀将：経験値を獲得すると、一斉召喚ゲージがわずかに溜まる / 印「知」の所持数+50%（強化：印「知」の所持数+70%）\n三矢一鵠：体力80%以上のとき、一斉召喚ゲージ獲得量+20% / 陣形のスロットボーナス効果2倍（強化：印「毛利」1つにつき一斉召喚ゲージ獲得量+30%）"
+  },
+  {
+    "number": 908,
+    "name": "小早川隆景",
+    "possessions": [
+      1,
+      14
+    ],
+    "emblems": [
+      13,
+      18,
+      104,
+      402,
+      110
+    ],
+    "mainEmblem": 13,
+    "summonSkill": "威圧の陣・防：敵の防御力を下げる空間を作る（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        907
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "叡智の一矢：印「知」1つにつき攻撃力+3%（強化：印「知」1つにつき攻撃力+4%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "104": 5,
+        "402": 2
+      }
+    },
+    "playerHeroTrait": "謀神の子：レベルアップ時に、20秒間攻撃力+50% / 印「知」の所持数+50%（強化：レベルアップ時に、20秒間攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+50%）\n先見之明：体力80%以上のとき、一斉召喚ゲージ獲得量+20% / 敵を強風状態にすると、残り召喚待機時間-1秒（強化：印「西国」1つにつき一斉召喚ゲージ獲得量+20% / 敵を強風状態にすると、残り召喚待機時間-2秒）"
+  },
+  {
+    "number": 909,
+    "name": "立花訚千代",
+    "possessions": [
+      3,
+      13
+    ],
+    "emblems": [
+      17,
+      204,
+      402,
+      110
+    ],
+    "mainEmblem": 17,
+    "summonSkill": "必中の刃・雷：強敵を自動で追尾する雷属性の弾を複数放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        910
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "雷切一閃：雷属性攻撃力+100%（強化：雷属性攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "13": 10
+      },
+      "requiredEmblemTypeDict": {
+        "402": 2
+      }
+    },
+    "playerHeroTrait": "立花の誇り：印「立花」1つにつき無双ゲージ獲得量+30% / 敵の障壁に対するチャージ攻撃の攻撃力+30%（強化：印「立花」1つにつき無双ゲージ獲得量+40% / 印「雷」の所持数+50%）\n神斬千鳥：感電状態の敵に対する攻撃力+50% / 連続1000HITごとに、15秒間攻撃力+30%（強化：印「雷」1つにつき攻撃力+3%）"
+  },
+  {
+    "number": 910,
+    "name": "立花宗茂",
+    "possessions": [
+      5,
+      14
+    ],
+    "emblems": [
+      17,
+      103,
+      107,
+      204,
+      402
+    ],
+    "mainEmblem": 17,
+    "summonSkill": "連射砲・風：一定時間、風属性の刃を放つ弾を設置する（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        909
+      ],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "剛勇鎮西一：印「西国」「堅」を持つ英傑の攻撃力+50%（強化：印「西国」「戦場の華」「堅」を持つ英傑の攻撃力+70%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 10,
+        "402": 2
+      }
+    },
+    "playerHeroTrait": "天衣無縫の武才：印「西国」1つにつき攻撃力+10% / 連続1000HITごとに、15秒間一斉召喚ゲージ獲得量+50%（強化：印「西国」1つにつき攻撃力+15%）\n支天西風：レベルアップ時に体力が20%回復 / 敵の予兆攻撃を妨害すると、15秒間攻撃力+30%（強化：敵の予兆攻撃を妨害すると、15秒間攻撃力+50%）"
+  },
+  {
+    "number": 911,
+    "name": "岛津义弘",
+    "possessions": [
+      0,
+      0
+    ],
+    "emblems": [
+      21,
+      103,
+      102,
+      106,
+      402
+    ],
+    "mainEmblem": 21,
+    "summonSkill": "地裂撃・風：四方に風属性の衝撃波を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "103": 5,
+        "102": 3
+      }
+    },
+    "uniqueTactics": "鬼島津：印「西国」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「西国」「怪力」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 5
+      },
+      "requiredEmblemTypeDict": {
+        "402": 3
+      }
+    },
+    "playerHeroTrait": "生粋の戦屋：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+30%（強化：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+40% / 印「猛将」1つにつき攻撃力+5%）\n怒涛破：強風状態の敵に対する攻撃力+50% / 50体撃破ごとに、体力が1%回復"
+  },
+  {
+    "number": 912,
+    "name": "岛津丰久",
+    "possessions": [
+      0,
+      11
+    ],
+    "emblems": [
+      21,
+      103,
+      106,
+      402,
+      109
+    ],
+    "mainEmblem": 21,
+    "summonSkill": "旋嵐・炎：周囲の敵を打ち上げる炎属性の大竜巻を発生させる（待機36秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [
+        911
+      ],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "uniqueTactics": "捨て奸：印「鉄砲の名手」を持つ英傑の、敵障壁への攻撃力+100%（強化：印「鉄砲の名手」「主君の盾」を持つ英傑の、敵障壁への攻撃力+120%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 5
+      },
+      "requiredEmblemTypeDict": {
+        "109": 2
+      }
+    },
+    "playerHeroTrait": "薩摩隼人：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+20% / 体力80%以上のとき、通常攻撃に炎属性を付与（強化：危険地帯で攻撃力、防御力、無双ゲージ獲得量、一斉召喚ゲージ獲得量+80% / 通常攻撃に炎属性を付与）\n熊衣狂断：階層の主に対する攻撃力+30% / 敵の予兆攻撃を妨害すると、10秒間攻撃速度+10%（強化：階層の主に対する攻撃力+40%）"
+  },
+  {
+    "number": 913,
+    "name": "长宗我部元亲",
+    "possessions": [
+      4,
+      14
+    ],
+    "emblems": [
+      19,
+      102,
+      402
+    ],
+    "mainEmblem": 19,
+    "summonSkill": "破甲の鋭刃・風：敵の障壁に大きなダメージを与える風属性の刃を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 10
+      },
+      "requiredEmblemTypeDict": {
+        "402": 3
+      }
+    },
+    "uniqueTactics": "鬼若子の楽奏：一斉召喚中、攻撃力+100%",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "4": 10,
+        "3": 5
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "凄絶なる反骨魂：敵の攻撃を受けると、20秒間攻撃力+50% / 印「技」の所持数+50%（強化：復活するごとに、攻撃力+80%(最大300%)）\n反魂三弦：体力が0になると、1回だけ復活する / 連続1000HITごとに、15秒間攻撃力+30%（強化：連続1000HITごとに、30秒間攻撃力+70%）"
+  },
+  {
+    "number": 1001,
+    "name": "索菲",
+    "possessions": [
+      11,
+      13
+    ],
+    "emblems": [
+      30,
+      204,
+      202
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "錬金術・雷＋炎：着弾すると爆発する雷属性と炎属性のアイテムを投げる（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "30": 2,
+        "204": 5
+      }
+    },
+    "uniqueTactics": "百花繚乱の法：印「戦場の華」を持つ英傑の召喚待機時間-20%、攻撃力+20%（強化：印「戦場の華」を持つ英傑の召喚待機時間-40%、攻撃力+20%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 3,
+        "13": 6
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "不思議のレシピ：印「戦場の華」1つにつき一斉召喚ゲージ獲得量+10% / 印「知」の所持数+50%\n循環と永劫の杖：印「無所属」1つにつき攻撃力+5% / 敵の障壁を破壊すると、雷属性の追加ダメージが発生（強化：印「無所属」1つにつき攻撃力+10%）"
+  },
+  {
+    "number": 1002,
+    "name": "莱莎",
+    "possessions": [
+      11,
+      12
+    ],
+    "emblems": [
+      30,
+      204,
+      202
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "錬金術・炎＋氷：着弾すると爆発する炎属性と氷属性の弾を放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "30": 2,
+        "204": 5
+      }
+    },
+    "uniqueTactics": "ヘブンズクエーサー：この英傑召喚時に、印「戦場の華」を持つ英傑も召喚される",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "11": 8,
+        "12": 3
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "奔放な錬金術：若樹での英傑再選出回数+15 / 印「戦場の華」を持つ英傑が若樹で出現しやすくなる\nセレスティアシーカー：印「戦場の華」1つにつき攻撃力+5% / 敵を撃破すると、周囲の敵を炎上状態にする爆発が発生（強化：印「戦場の華」1つにつき攻撃力+7%）"
+  },
+  {
+    "number": 1003,
+    "name": "尤米雅",
+    "possessions": [
+      14,
+      15
+    ],
+    "emblems": [
+      30,
+      204,
+      106
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "錬金術・風＋斬：旋回する風属性の刃を放ったのち前方に斬属性の刃を複数放つ（待機33秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "30": 2,
+        "204": 5
+      }
+    },
+    "uniqueTactics": "レクイエムトリガー：印「無所属」を持つ英傑の攻撃力+50%（強化：印「無所属」「鉄砲の名手」を持つ英傑の攻撃力と、敵障壁への攻撃力+50%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "14": 6,
+        "15": 3
+      },
+      "requiredEmblemTypeDict": {}
+    },
+    "playerHeroTrait": "マナフロー：印「無所属」1つにつき攻撃力+5% / 敵を強風状態にすると、周囲の敵を強風状態にする爆発が発生（強化：印「無所属」1つにつき攻撃力+10%）\nエフェメラルレコード：印「風」の所持数+50% / 敵の障壁に対するチャージ攻撃の攻撃力+30%"
+  },
+  {
+    "number": 1004,
+    "name": "隼龙",
+    "possessions": [
+      0,
+      4,
+      3,
+      3
+    ],
+    "emblems": [
+      30,
+      103,
+      105,
+      105,
+      105
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "火炎龍：一定距離飛んで爆発する炎属性の弾を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {
+        "30": 4
+      }
+    },
+    "uniqueTactics": "龍の忍者：操作英傑の素早さと攻撃速度+15%",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 12
+      },
+      "requiredEmblemTypeDict": {
+        "105": 7
+      }
+    },
+    "playerHeroTrait": "孤高の超忍：50体撃破ごとに、体力が1%回復 / 印「速」の所持数+50%（強化：印「速」の所持数+70%）\n討邪神龍剣：回避後、10秒間攻撃速度+10% / 印「力」の所持数+50%（強化：印「力」の所持数+70%）"
+  },
+  {
+    "number": 1005,
+    "name": "绫音",
+    "possessions": [
+      3,
+      15
+    ],
+    "emblems": [
+      30,
+      105,
+      204
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "閃華クナイ：着弾すると爆発するクナイを放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "30": 2,
+        "204": 5
+      }
+    },
+    "uniqueTactics": "霧幻天神流：印「速」を持つ英傑の攻撃力+50%（強化：印「速」を持つ英傑の攻撃力+60%）",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "15": 5
+      },
+      "requiredEmblemTypeDict": {
+        "105": 4
+      }
+    },
+    "playerHeroTrait": "天才くノ一：印「忍」1つにつき攻撃力+7%（強化：50体撃破ごとに、体力が1%回復）\n夜光蝶小太刀：敵を裂傷状態にすると、無双ゲージがわずかに溜まる / ノロイバキを4体撃破すると、10秒間攻撃を防ぐ障壁を張る"
+  },
+  {
+    "number": 1006,
+    "name": "瑞秋",
+    "possessions": [
+      0,
+      13
+    ],
+    "emblems": [
+      30,
+      103,
+      203
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "ヘヴィマシンガン：前方に雷属性の弾を複数放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "30": 3,
+        "103": 5
+      }
+    },
+    "uniqueTactics": "魔神の血：印「怪力」を持つ英傑の攻撃力+100%",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "0": 10
+      },
+      "requiredEmblemTypeDict": {
+        "203": 6
+      }
+    },
+    "playerHeroTrait": "魔神ハンター：印「怪力」1つにつき攻撃力+10%（強化：印「怪力」1つにつき攻撃力+15% / 撃破した敵が爆発し、周囲の敵にダメージを与える）\n蒼晶鎚：敵の矢弾を破壊すると、爆発して周囲の敵にダメージを与える / レベルアップ時に体力が20%回復"
+  },
+  {
+    "number": 1007,
+    "name": "红叶",
+    "possessions": [
+      3,
+      11
+    ],
+    "emblems": [
+      30,
+      107,
+      105,
+      201
+    ],
+    "mainEmblem": 30,
+    "summonSkill": "神楽弓：障害物に当たると跳ね返る炎属性の矢を放つ（待機30秒）",
+    "upgradeCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {},
+      "requiredEmblemTypeDict": {
+        "107": 4
+      }
+    },
+    "uniqueTactics": "天駆：印「速」1つにつき攻撃力+5%",
+    "activationCondition": {
+      "requiredHeroes": [],
+      "requiredAttributeDict": {
+        "3": 10
+      },
+      "requiredEmblemTypeDict": {
+        "201": 5
+      }
+    },
+    "playerHeroTrait": "龍の巫女：若樹で映し出される英傑数+1（強化：各区画の戦闘開始時に、体力が10%回復）\n神龍薙刀：敵の障壁を破壊すると、周囲の敵にダメージを与える爆発が発生 / 敵の障壁に対するチャージ攻撃の攻撃力+30%"
   }
 ]

@@ -52,6 +52,7 @@ enum EmblemType: Int, CaseIterable, Codable {
     case mori = 18 // 毛利
     case chosokabe = 19 // 长宗我部
     case date = 20 // 伊达
+    case shimazu = 21 // 岛津
     
     // 其他势力
     case independent = 30 // 无所属

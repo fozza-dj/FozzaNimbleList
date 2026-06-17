@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "number": 201,
+    "heroEnumCase": "zhaoYun",
+    "name": "赵云",
+    "japaneseName": "趙雲",
+    "courtesyName": "子龙",
+    "japaneseCourtesyName": "子龍",
+    "voiceActor": "田邊幸輔",
+    "faction": "shu",
+    "factionEmblemRawValue": 1
+  },
+  "possessions": {
+    "base": [
+      { "key": "skill", "rawValue": 4 },
+      { "key": "thunder", "rawValue": 13 }
+    ],
+    "limitBreak": [
+      { "key": "power", "rawValue": 0, "note": "限界突破で獲得" }
+    ]
+  },
+  "emblems": {
+    "base": [
+      { "key": "shu", "rawValue": 1 },
+      { "key": "braveGeneral", "rawValue": 103 },
+      { "key": "fiveShuTigers", "rawValue": 302 }
+    ],
+    "limitBreak": [
+      { "key": "kingsShield", "rawValue": 109, "note": "限界突破で獲得" }
+    ]
+  },
+  "mainEmblem": { "key": "shu", "rawValue": 1 },
+  "operationTraits": [
+    {
+      "name": "忠勇兼備",
+      "baseEffect": "印「蜀」1つにつき攻撃力+5%。敵を感電状態にすると、残り召喚待機時間-1秒",
+      "strengthenedEffect": "印「蜀」1つにつき攻撃力+8%。敵を感電状態にすると、残り召喚待機時間-1秒",
+      "strengthenDelta": "蜀×1あたり +5% → +8%",
+      "tags": ["蜀", "感電"]
+    },
+    {
+      "name": "光龍神槍",
+      "baseEffect": "感電状態の敵に対する攻撃力+50%。連続1000HITごとに、15秒間無双ゲージ獲得量+50%",
+      "strengthenedEffect": "感電状態の敵に対する攻撃力+50%。連続1000HITごとに、15秒間無双ゲージ獲得量+50%[印「雷」の所持数+50%]",
+      "strengthenDelta": "無双ゲージ獲得量バフ中の所持「雷」が+50%扱いになる",
+      "tags": ["雷", "感電", "コンボ"]
+    }
+  ],
+  "summonSkill": {
+    "name": "飛剣・雷",
+    "wikiSlug": "召喚技/飛剣",
+    "element": "thunder",
+    "effect": "前方に雷属性の斬撃を飛ばす",
+    "cooldownSec": 36,
+    "upgradeItem": "弾数",
+    "upgradeCondition": {
+      "heroes": [
+        { "key": "liuBei", "rawValue": 202, "japaneseName": "劉備" }
+      ],
+      "emblems": [],
+      "possessions": [
+        { "key": "thunder", "rawValue": 13, "count": 10 }
+      ]
+    },
+    "synergyNote": "劉備が限界突破で「雷」を獲得するため、雷特化ビルドでもピックしやすくなった。"
+  },
+  "uniqueTactics": {
+    "name": null,
+    "baseEffect": "召喚技「飛剣」の攻撃力+100%",
+    "strengthenedEffect": "召喚技「飛剣」の攻撃力+120%",
+    "activationCondition": {
+      "heroes": [
+        { "key": "zhugeLiang", "rawValue": 205, "japaneseName": "諸葛亮" }
+      ],
+      "possessions": [
+        { "key": "skill", "rawValue": 4, "count": 5 }
+      ],
+      "emblems": []
+    },
+    "wikiNote": "「固有戦法」総表の所持印つき表より。発動条件は諸葛亮 + 技×5。"
+  },
+  "companionTraits": [
+    {
+      "index": 1,
+      "trait": "印「雷」1つにつき攻撃力+2%",
+      "activationCondition": null,
+      "tags": ["雷"]
+    },
+    {
+      "index": 2,
+      "trait": "各区画の戦闘開始時に、30秒間雷属性攻撃力+25%",
+      "activationCondition": {
+        "heroes": [
+          { "key": "weiYan", "rawValue": 208, "japaneseName": "魏延" }
+        ],
+        "possessions": [
+          { "key": "skill", "rawValue": 4, "count": 8 }
+        ],
+        "emblems": []
+      },
+      "tags": ["雷", "区画開始"]
+    },
+    {
+      "index": 3,
+      "trait": "体力が0になる攻撃を受けると1回だけ交代が発生する",
+      "activationCondition": {
+        "heroes": [],
+        "possessions": [
+          { "key": "shield", "rawValue": 5, "count": 6 }
+        ],
+        "emblems": [
+          { "key": "braveGeneral", "rawValue": 103, "count": 7 }
+        ]
+      },
+      "tags": ["生存", "交代"]
+    }
+  ],
+  "combos": {
+    "specialAction": {
+      "name": "固有アクション",
+      "description": "EX以外のチャージ攻撃の後隙をキャンセルしてC1が出せる。ただし召喚技が出せない状況に限る。原作仕様で、初期verではオミット → ver1.4.0で復活、ver1.5.0で繋ぎが高速化。"
+    },
+    "moves": [
+      {
+        "id": "N",
+        "name": "通常攻撃",
+        "description": "払いを主体。N5のみ突きで範囲狭い。N3/N4/N6は槍を振り回し広範囲。攻撃速度・移動性能ともに良好。"
+      },
+      { "id": "C1", "name": "C1", "description": "突き。踏み込み・出の早さ・動作の短さどれも及第点。階層の主への差し込みに使える。固有アクションでキャンセルC1繋ぎが可能、ver1.5.0で繋ぎが高速化。" },
+      { "id": "C1EX", "name": "C1EX", "description": "回転多段攻撃しながら前方ジャンプ→龍槍を叩きつけ水龍を飛ばす。ver1.4.0で水龍判定追加、遠距離攻撃としても機能。" },
+      { "id": "C2", "name": "C2", "description": "地面打ち付け→打ち上げ衝撃波→反動ジャンプ→落下叩きつけで2発目の打ち上げ衝撃波。原作の空中行動部分は1動作に統合。" },
+      { "id": "C3", "name": "C3", "description": "龍槍を撓らせ回転させ2回連続突き→叩きつけ広範囲〆。追加入力で突き4回まで増加。" },
+      { "id": "C3EX", "name": "C3EX", "description": "原作EXを鋭く・コンパクトにした突き＋前方斜め左右に水龍2匹。ver1.4.0で水龍追加により範囲/射程/威力が大幅向上。" },
+      { "id": "C4", "name": "C4", "description": "1回転しながら薙ぎ払い。シンプルな全方位攻撃。ver1.4.0で範囲拡大＋2ヒット化、雑魚処理性能上昇。" },
+      { "id": "C5", "name": "C5", "description": "スライディング斬り抜け→龍槍振り上げで打ち上げ衝撃波。予兆攻撃に合わせて攻撃と回避を両立可能。" },
+      { "id": "C6", "name": "C6", "description": "全方位衝撃波で打ち上げ→演武→石突を地面に叩きつけて水龍をΔ状に飛ばす。初段回避キャンセル→2段目だけ拾うのが効率的。" },
+      { "id": "Dash", "name": "ダッシュ攻撃", "description": "縦回し→横払いの素早い2連撃。原作の長距離攻撃から〆の2連撃のみに簡略化。" },
+      { "id": "MusouRanbu", "name": "無双乱舞", "description": "「趙子龍、参る！」三國6以来定番の「飛龍閃」。2体の水龍とともに前方突進。長距離・縦長配置向け。" },
+      { "id": "FormationRanbu", "name": "陣形乱舞", "description": "「龍とならん！」「喰らえ！」三國7の覚醒乱舞〜真・覚醒乱舞ベース。前方薙ぎ払い→左右振り回し→クロス斬り→ポーズ〆。階層の主の障壁破壊が主目的。" }
+    ]
+  },
+  "recommendedBuild": {
+    "name": "風雷ビルド",
+    "rationale": "操作時特性で「蜀」を集めたい＆雷ビルドにしたい。張飛入りの風雷が安定。",
+    "windSide": {
+      "core": [
+        { "key": "zhangFei", "rawValue": 204, "japaneseName": "張飛", "possessions": "力 力 風", "specials": "蜀 猛将 蜀の五虎大将 怪力", "effect": "強風状態の敵への攻撃力+100% [+120%]", "condition": "蜀×10、猛将×10" },
+        { "key": "maChao", "rawValue": 206, "japaneseName": "馬超", "possessions": "力 風", "specials": "蜀 猛将 蜀の五虎大将 西涼", "effect": "風属性攻撃力+100% [+120%]", "condition": "風×10、西涼×2" }
+      ],
+      "candidates": [
+        { "key": "keijiMaeda", "rawValue": 508, "japaneseName": "前田慶次", "possessions": "力 速 風", "specials": "上杉 織田 [無所属] 猛将 戦場の華", "effect": "敵を強風状態にすると周囲を強風状態にする爆発が発生", "condition": "阿国、風×10 [阿国、風×8]" },
+        { "key": "masamuneDate", "rawValue": 901, "japaneseName": "伊達政宗", "possessions": "速 風", "specials": "徳川 伊達 大名 才賢 鉄砲の名手", "effect": "強風状態の敵を攻撃すると周囲にダメージ爆発が発生", "condition": "風×10、才賢×4 [風×10、才賢×3]" }
+      ]
+    },
+    "thunderSide": {
+      "core": [
+        { "key": "ginchiyoTachibana", "rawValue": 909, "japaneseName": "立花誾千代", "possessions": "速 雷", "specials": "立花 [猛将] 戦場の華 西国 次代の担い手", "effect": "雷属性攻撃力+100% [+120%]", "condition": "雷×10、西国×2" }
+      ],
+      "candidates": [
+        { "key": "luBu", "rawValue": 404, "japaneseName": "呂布", "possessions": "力 力 技 雷", "specials": "呂布軍 董卓軍 猛将 弓の名手 怪力", "effect": "雷属性の追加ダメージ+200% [+300%]", "condition": "力×5、猛将×3" },
+        { "key": "hanzoHattori", "rawValue": 702, "japaneseName": "服部半蔵", "possessions": "速 速", "specials": "徳川 忍 [主君の盾]", "effect": "感電状態の敵を攻撃すると周囲にダメージ爆発が発生", "condition": "雷×10、忍×2 [雷×8、忍×2]" }
+      ]
+    },
+    "priorityOrder": "蜀 ＞ 風 ＝ 雷 ＞ 力 ＝ 技 ＝ 速",
+    "notes": "雷はサブの8に留めて風16以上を目指す or 風炎雷で力を追求するのが無難。技・速・雷から真田全員と次代の担い手6人を確保できるので無理無茶ではないが、再選出をシビアに使う必要がある。"
+  },
+  "companionRecommendations": [
+    {
+      "key": "naotoraIi",
+      "rawValue": 705,
+      "japaneseName": "井伊直虎",
+      "traits": [
+        { "index": 1, "effect": "印「戦場の華」1つにつき、攻撃力と防御力+2%", "condition": null },
+        { "index": 2, "effect": "敵に感電を与えると、残り召喚待機時間-1秒", "condition": "速×8、戦場の華×7" },
+        { "index": 3, "effect": "連続1000HITごとに、30秒間攻撃速度+10%", "condition": "井伊直虎、徳川×5" }
+      ]
+    },
+    {
+      "key": "ginchiyoTachibana",
+      "rawValue": 909,
+      "japaneseName": "立花誾千代",
+      "traits": [
+        { "index": 1, "effect": "印「雷」1つにつき、雷属性攻撃力+3%", "condition": null },
+        { "index": 2, "effect": "各区画の戦闘開始時に、30秒間素早さと攻撃速度+10%", "condition": "風×10、西国×3" },
+        { "index": 3, "effect": "敵を感電状態にすると、周囲の敵を感電状態にする爆発が発生", "condition": "雷×12、戦場の華×9" }
+      ]
+    }
+  ],
+  "playstyle": {
+    "early": "序盤はC3C4を中心に使い、乱舞も積極的に撃つ。",
+    "mid": "C6習得後は C6初段→回避キャンセル→敵の群れの中で2段目 を繰り返すと効率良く倒せる。",
+    "late": "雑魚処理能力はそれほど高くないため、召喚技/乱舞に頼る必要がある。感電で召喚待機時間が減る操作時特性が活きる。",
+    "specialBuilds": "C1EXは遠距離狙撃、C3EXは雑魚処理にも使えるが、無理に「技」を集める必要はない。属性集めを優先。長宗我部元親採用時は技10必要なので要注意。力16でC6の殲滅力が跳ね上がり、ビルドは選ぶがやる価値あり。"
+  },
+  "yamamaCho": {
+    "title": "閻魔帳の推奨効果",
+    "items": [
+      "「真田」または「蜀」が出やすくなる効果（ビルドが楽になる）",
+      "再選出回数+8回",
+      "力+20%で力18を狙いやすくする"
+    ]
+  },
+  "lore": {
+    "summary": "真・三國無双シリーズでは格ゲーの三國無双時代からのレギュラー英傑。長坂での敵中突破が「無双」というイメージをこれ以上なく体現しているからか、呂布や関羽を差し置いてシリーズの顔・象徴とでも言うべき優遇を受けている。",
+    "details": [
+      "全てのナンバリング作品のOPムービーで主役を張っているほか、7,8ではパッケージも飾っている。",
+      "基本緑をイメージしてデザインされている蜀英傑で唯一青白い衣装となっていたり、無双アビスでも1番最初に操作する英傑に抜擢とまさに特別扱い。",
+      "性格も癖のない仁義に厚い好青年といった様相で、史実同様人に嫌われないキャラ付け。",
+      "無双OROCHIシリーズでも真田幸村と並んで三国・戦国の代表としてOPで活躍したり、パッケージを飾っている。無双OROCHI蜀編では初期から使用可能な実質蜀編の主役。",
+      "オリジンズでは長らく務めた小野坂氏から田邊幸輔氏にCVが変更。三国志の前半主体かつ史実重視の作劇だったため仲間入りがだいぶ遅く、三国志を詳しく知らないユーザーから驚かれていた。"
+    ]
+  },
+  "wikiSource": {
+    "characterPage": "https://wikiwiki.jp/musoabyss/%E8%B6%99%E9%9B%B2",
+    "uniqueTacticsPage": "https://wikiwiki.jp/musoabyss/%E5%9B%BA%E6%9C%89%E6%88%A6%E6%B3%95",
+    "summonSkillPage": "https://wikiwiki.jp/musoabyss/%E5%8F%AC%E5%96%9A%E6%8A%80/%E9%A3%9B%E5%89%A3",
+    "lastFetchedAt": "2026-05-19"
+  }
+}
